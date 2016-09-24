@@ -221,6 +221,7 @@
 				TargetAttributes = {
 					C62BFE4A1D96368D004BB694 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 27QEGE2D2J;
 						ProvisioningStyle = Automatic;
 					};
 					C62BFE5C1D96368D004BB694 = {
@@ -506,6 +507,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 27QEGE2D2J;
 				INFOPLIST_FILE = HackGT2016/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gatornation.HackGT2016;
@@ -518,6 +520,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 27QEGE2D2J;
 				INFOPLIST_FILE = HackGT2016/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gatornation.HackGT2016;
@@ -545,6 +548,7 @@
 				C62BFE7C1D96368D004BB694 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C62BFE7E1D96368D004BB694 /* Build configuration list for PBXNativeTarget "HackGT2016 WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -553,6 +557,7 @@
 				C62BFE801D96368D004BB694 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C62BFE821D96368D004BB694 /* Build configuration list for PBXNativeTarget "HackGT2016" */ = {
 			isa = XCConfigurationList;
@@ -561,6 +566,7 @@
 				C62BFE841D96368D004BB694 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
