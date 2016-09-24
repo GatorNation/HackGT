@@ -46,7 +46,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate{
         if (WCSession.isSupported()) {
             session = WCSession.default()
 //            session.delegate = self;
-            session.activate()
+           // session.activate()
         }
 //            sendSMS()
         locationManager.delegate = self
@@ -54,7 +54,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate{
             if locationManager.location != nil {
                 latitude = locationManager.location!.coordinate.latitude
                 longitude = locationManager.location!.coordinate.longitude
-        print("Important. " + String(UIDevice.current.name) + " might be having a seizure at or around https://www.google.com/maps/@\(latitude),\(longitude),17z")
+        print("Important. " + String(UIDevice.current.name) + " might be having a seizure at or around: https://www.google.com/maps/@\(latitude),\(longitude),17z")
         }
         
         self.counterLabel.reloadInputViews()
