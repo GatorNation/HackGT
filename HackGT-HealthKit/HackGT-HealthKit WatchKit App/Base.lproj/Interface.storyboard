@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="11077"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="HackGT_HealthKit_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <group width="1" height="39" alignment="left" id="UBs-aG-mZg">
+                            <items>
+                                <label width="135" height="43" alignment="left" text="Label" id="STU-P8-ond"/>
+                            </items>
+                        </group>
+                        <group width="134" height="65" alignment="left" id="06t-42-Bxf">
+                            <items>
+                                <button width="136" height="68" alignment="left" title="HeartBeat" id="sqm-CD-EiI">
+                                    <connections>
+                                        <action selector="startBtnPressed" destination="AgC-eL-Hgc" id="mEX-jp-Ft6"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="heartRateLabel" destination="STU-P8-ond" id="fUQ-ym-A3V"/>
+                        <outlet property="startButton" destination="sqm-CD-EiI" id="eow-TJ-koc"/>
+                        <segue destination="yaP-HH-KBE" kind="relationship" relationship="nextPage" id="Jv9-W5-IJF"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="89" y="37"/>
+        </scene>
+        <!--Motion Interface Controller-->
+        <scene sceneID="5dT-PD-vNZ">
+            <objects>
+                <controller id="LRh-2n-O2P" customClass="MotionInterfaceController" customModule="HackGT_HealthKit_WatchKit_Extension">
+                    <items>
+                        <group width="1" alignment="left" id="0nj-pd-aeO"/>
+                        <group width="1" height="78" alignment="left" id="TCd-c2-Mkm">
+                            <items>
+                                <button width="1" height="65" alignment="left" title="Motion" id="JkA-0x-wTE">
+                                    <connections>
+                                        <action selector="motionButtonPressed" destination="LRh-2n-O2P" id="tz6-xR-c9O"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="motionButton" destination="JkA-0x-wTE" id="Lvx-qE-Pnm"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="641" y="37"/>
+        </scene>
+        <!--Send To Phone Interface Controller-->
+        <scene sceneID="1DG-JB-T0P">
+            <objects>
+                <controller id="yaP-HH-KBE" customClass="SendToPhoneInterfaceController" customModule="HackGT_HealthKit_WatchKit_Extension">
+                    <items>
+                        <group width="1" alignment="left" id="EOH-OZ-f6Q"/>
+                        <group width="1" alignment="left" id="EMU-07-HRs">
+                            <items>
+                                <button width="1" height="71" alignment="left" title="Message" id="3yx-TU-oET">
+                                    <connections>
+                                        <action selector="sendButtonPressed" destination="yaP-HH-KBE" id="fck-hg-dEx"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                    </items>
+                    <connections>
+                        <segue destination="LRh-2n-O2P" kind="relationship" relationship="nextPage" id="wfL-kS-umM"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="371" y="37"/>
+        </scene>
+    </scenes>
+</document>

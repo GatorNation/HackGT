@@ -19,6 +19,8 @@
 		C62BFE721D96368D004BB694 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62BFE711D96368D004BB694 /* InterfaceController.swift */; };
 		C62BFE741D96368D004BB694 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62BFE731D96368D004BB694 /* ExtensionDelegate.swift */; };
 		C62BFE761D96368D004BB694 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C62BFE751D96368D004BB694 /* Assets.xcassets */; };
+		C62BFE8A1D9656F3004BB694 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C62BFE891D9656F3004BB694 /* HealthKit.framework */; };
+		C62BFE8C1D965952004BB694 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C62BFE8B1D965952004BB694 /* HealthKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +82,10 @@
 		C62BFE731D96368D004BB694 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		C62BFE751D96368D004BB694 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C62BFE771D96368D004BB694 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C62BFE851D964981004BB694 /* HackGT2016.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HackGT2016.entitlements; sourceTree = "<group>"; };
+		C62BFE891D9656F3004BB694 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		C62BFE8B1D965952004BB694 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS3.0.sdk/System/Library/Frameworks/HealthKit.framework; sourceTree = DEVELOPER_DIR; };
+		C62BFE8D1D965952004BB694 /* HackGT2016 WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "HackGT2016 WatchKit Extension.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C62BFE8A1D9656F3004BB694 /* HealthKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,6 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C62BFE8C1D965952004BB694 /* HealthKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,6 +115,7 @@
 				C62BFE611D96368D004BB694 /* HackGT2016 WatchKit App */,
 				C62BFE701D96368D004BB694 /* HackGT2016 WatchKit Extension */,
 				C62BFE4C1D96368D004BB694 /* Products */,
+				C62BFE861D964981004BB694 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,6 +132,7 @@
 		C62BFE4D1D96368D004BB694 /* HackGT2016 */ = {
 			isa = PBXGroup;
 			children = (
+				C62BFE851D964981004BB694 /* HackGT2016.entitlements */,
 				C62BFE4E1D96368D004BB694 /* AppDelegate.swift */,
 				C62BFE501D96368D004BB694 /* ViewController.swift */,
 				C62BFE521D96368D004BB694 /* Main.storyboard */,
@@ -146,12 +156,22 @@
 		C62BFE701D96368D004BB694 /* HackGT2016 WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				C62BFE8D1D965952004BB694 /* HackGT2016 WatchKit Extension.entitlements */,
 				C62BFE711D96368D004BB694 /* InterfaceController.swift */,
 				C62BFE731D96368D004BB694 /* ExtensionDelegate.swift */,
 				C62BFE751D96368D004BB694 /* Assets.xcassets */,
 				C62BFE771D96368D004BB694 /* Info.plist */,
 			);
 			path = "HackGT2016 WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		C62BFE861D964981004BB694 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C62BFE8B1D965952004BB694 /* HealthKit.framework */,
+				C62BFE891D9656F3004BB694 /* HealthKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,15 +241,28 @@
 				TargetAttributes = {
 					C62BFE4A1D96368D004BB694 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 9WJA583BHU;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+						};
 					};
 					C62BFE5C1D96368D004BB694 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 9WJA583BHU;
 						ProvisioningStyle = Automatic;
 					};
 					C62BFE6B1D96368D004BB694 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 9WJA583BHU;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.HealthKit.watchos = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -440,9 +473,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "HackGT2016 WatchKit Extension/HackGT2016 WatchKit Extension.entitlements";
+				DEVELOPMENT_TEAM = 9WJA583BHU;
 				INFOPLIST_FILE = "HackGT2016 WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.gatornation.HackGT2016.watchkitapp.watchkitextension;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gatornation.HackGT2016-2.watchkitapp.watchkitextension";
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -456,9 +491,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "HackGT2016 WatchKit Extension/HackGT2016 WatchKit Extension.entitlements";
+				DEVELOPMENT_TEAM = 9WJA583BHU;
 				INFOPLIST_FILE = "HackGT2016 WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.gatornation.HackGT2016.watchkitapp.watchkitextension;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gatornation.HackGT2016-2.watchkitapp.watchkitextension";
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -473,9 +510,10 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9WJA583BHU;
 				IBSC_MODULE = HackGT2016_WatchKit_Extension;
 				INFOPLIST_FILE = "HackGT2016 WatchKit App/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = com.gatornation.HackGT2016.watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gatornation.HackGT2016-2.watchkitapp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -490,9 +528,10 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9WJA583BHU;
 				IBSC_MODULE = HackGT2016_WatchKit_Extension;
 				INFOPLIST_FILE = "HackGT2016 WatchKit App/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = com.gatornation.HackGT2016.watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gatornation.HackGT2016-2.watchkitapp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -506,9 +545,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HackGT2016/HackGT2016.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 9WJA583BHU;
 				INFOPLIST_FILE = HackGT2016/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.gatornation.HackGT2016;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gatornation.HackGT2016-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -518,9 +560,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HackGT2016/HackGT2016.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 9WJA583BHU;
 				INFOPLIST_FILE = HackGT2016/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.gatornation.HackGT2016;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gatornation.HackGT2016-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -545,6 +590,7 @@
 				C62BFE7C1D96368D004BB694 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C62BFE7E1D96368D004BB694 /* Build configuration list for PBXNativeTarget "HackGT2016 WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -553,6 +599,7 @@
 				C62BFE801D96368D004BB694 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C62BFE821D96368D004BB694 /* Build configuration list for PBXNativeTarget "HackGT2016" */ = {
 			isa = XCConfigurationList;
@@ -561,6 +608,7 @@
 				C62BFE841D96368D004BB694 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
