@@ -8,6 +8,7 @@
 
 import UIKit
 import WatchConnectivity
+import CoreMotion
 
 class ViewController: UIViewController {
 
@@ -48,6 +49,9 @@ class ViewController: UIViewController {
         }
         
     }
+    
+ 
+
     
 
 }
