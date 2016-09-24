@@ -3,7 +3,7 @@
 //  HackGT2016 WatchKit Extension
 //
 //  Created by David  Yeung on 9/24/16.
-//  Copyright © 2016 David Yeung. All rights reserved.
+//
 //
 
 import WatchKit

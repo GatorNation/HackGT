@@ -7,57 +7,56 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C62BFE081D963497004BB694 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62BFE071D963497004BB694 /* AppDelegate.swift */; };
-		C62BFE0A1D963497004BB694 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62BFE091D963497004BB694 /* ViewController.swift */; };
-		C62BFE0D1D963497004BB694 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C62BFE0B1D963497004BB694 /* Main.storyboard */; };
-		C62BFE0F1D963497004BB694 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C62BFE0E1D963497004BB694 /* Assets.xcassets */; };
-		C62BFE121D963497004BB694 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C62BFE101D963497004BB694 /* LaunchScreen.storyboard */; };
-		C62BFE171D963497004BB694 /* HackGT2016 WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = C62BFE161D963497004BB694 /* HackGT2016 WatchKit App.app */; };
-		C62BFE1D1D963497004BB694 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C62BFE1B1D963497004BB694 /* Interface.storyboard */; };
-		C62BFE1F1D963497004BB694 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C62BFE1E1D963497004BB694 /* Assets.xcassets */; };
-		C62BFE261D963497004BB694 /* HackGT2016 WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C62BFE251D963497004BB694 /* HackGT2016 WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		C62BFE2D1D963497004BB694 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62BFE2C1D963497004BB694 /* InterfaceController.swift */; };
-		C62BFE2F1D963497004BB694 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62BFE2E1D963497004BB694 /* ExtensionDelegate.swift */; };
-		C62BFE311D963497004BB694 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62BFE301D963497004BB694 /* NotificationController.swift */; };
-		C62BFE331D963497004BB694 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C62BFE321D963497004BB694 /* Assets.xcassets */; };
+		C62BFE4F1D96368D004BB694 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62BFE4E1D96368D004BB694 /* AppDelegate.swift */; };
+		C62BFE511D96368D004BB694 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62BFE501D96368D004BB694 /* ViewController.swift */; };
+		C62BFE541D96368D004BB694 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C62BFE521D96368D004BB694 /* Main.storyboard */; };
+		C62BFE561D96368D004BB694 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C62BFE551D96368D004BB694 /* Assets.xcassets */; };
+		C62BFE591D96368D004BB694 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C62BFE571D96368D004BB694 /* LaunchScreen.storyboard */; };
+		C62BFE5E1D96368D004BB694 /* HackGT2016 WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = C62BFE5D1D96368D004BB694 /* HackGT2016 WatchKit App.app */; };
+		C62BFE641D96368D004BB694 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C62BFE621D96368D004BB694 /* Interface.storyboard */; };
+		C62BFE661D96368D004BB694 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C62BFE651D96368D004BB694 /* Assets.xcassets */; };
+		C62BFE6D1D96368D004BB694 /* HackGT2016 WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C62BFE6C1D96368D004BB694 /* HackGT2016 WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C62BFE721D96368D004BB694 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62BFE711D96368D004BB694 /* InterfaceController.swift */; };
+		C62BFE741D96368D004BB694 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62BFE731D96368D004BB694 /* ExtensionDelegate.swift */; };
+		C62BFE761D96368D004BB694 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C62BFE751D96368D004BB694 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		C62BFE181D963497004BB694 /* PBXContainerItemProxy */ = {
+		C62BFE5F1D96368D004BB694 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = C62BFDFC1D963496004BB694 /* Project object */;
+			containerPortal = C62BFE431D96368D004BB694 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C62BFE151D963497004BB694;
+			remoteGlobalIDString = C62BFE5C1D96368D004BB694;
 			remoteInfo = "HackGT2016 WatchKit App";
 		};
-		C62BFE271D963497004BB694 /* PBXContainerItemProxy */ = {
+		C62BFE6E1D96368D004BB694 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = C62BFDFC1D963496004BB694 /* Project object */;
+			containerPortal = C62BFE431D96368D004BB694 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C62BFE241D963497004BB694;
+			remoteGlobalIDString = C62BFE6B1D96368D004BB694;
 			remoteInfo = "HackGT2016 WatchKit Extension";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		C62BFE3A1D963497004BB694 /* Embed App Extensions */ = {
+		C62BFE7D1D96368D004BB694 /* Embed App Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				C62BFE261D963497004BB694 /* HackGT2016 WatchKit Extension.appex in Embed App Extensions */,
+				C62BFE6D1D96368D004BB694 /* HackGT2016 WatchKit Extension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C62BFE3E1D963497004BB694 /* Embed Watch Content */ = {
+		C62BFE811D96368D004BB694 /* Embed Watch Content */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				C62BFE171D963497004BB694 /* HackGT2016 WatchKit App.app in Embed Watch Content */,
+				C62BFE5E1D96368D004BB694 /* HackGT2016 WatchKit App.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -65,35 +64,33 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		C62BFE041D963497004BB694 /* HackGT2016.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackGT2016.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C62BFE071D963497004BB694 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C62BFE091D963497004BB694 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C62BFE0C1D963497004BB694 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C62BFE0E1D963497004BB694 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C62BFE111D963497004BB694 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		C62BFE131D963497004BB694 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C62BFE161D963497004BB694 /* HackGT2016 WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HackGT2016 WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C62BFE1C1D963497004BB694 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
-		C62BFE1E1D963497004BB694 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C62BFE201D963497004BB694 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C62BFE251D963497004BB694 /* HackGT2016 WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "HackGT2016 WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C62BFE2B1D963497004BB694 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
-		C62BFE2C1D963497004BB694 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
-		C62BFE2E1D963497004BB694 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
-		C62BFE301D963497004BB694 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
-		C62BFE321D963497004BB694 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C62BFE341D963497004BB694 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C62BFE4B1D96368D004BB694 /* HackGT2016.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackGT2016.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C62BFE4E1D96368D004BB694 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C62BFE501D96368D004BB694 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C62BFE531D96368D004BB694 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C62BFE551D96368D004BB694 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C62BFE581D96368D004BB694 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C62BFE5A1D96368D004BB694 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C62BFE5D1D96368D004BB694 /* HackGT2016 WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HackGT2016 WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C62BFE631D96368D004BB694 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		C62BFE651D96368D004BB694 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C62BFE671D96368D004BB694 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C62BFE6C1D96368D004BB694 /* HackGT2016 WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "HackGT2016 WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C62BFE711D96368D004BB694 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		C62BFE731D96368D004BB694 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		C62BFE751D96368D004BB694 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C62BFE771D96368D004BB694 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C62BFE011D963496004BB694 /* Frameworks */ = {
+		C62BFE481D96368D004BB694 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C62BFE221D963497004BB694 /* Frameworks */ = {
+		C62BFE691D96368D004BB694 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -103,116 +100,106 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C62BFDFB1D963496004BB694 = {
+		C62BFE421D96368D004BB694 = {
 			isa = PBXGroup;
 			children = (
-				C62BFE061D963497004BB694 /* HackGT2016 */,
-				C62BFE1A1D963497004BB694 /* HackGT2016 WatchKit App */,
-				C62BFE291D963497004BB694 /* HackGT2016 WatchKit Extension */,
-				C62BFE051D963497004BB694 /* Products */,
+				C62BFE4D1D96368D004BB694 /* HackGT2016 */,
+				C62BFE611D96368D004BB694 /* HackGT2016 WatchKit App */,
+				C62BFE701D96368D004BB694 /* HackGT2016 WatchKit Extension */,
+				C62BFE4C1D96368D004BB694 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		C62BFE051D963497004BB694 /* Products */ = {
+		C62BFE4C1D96368D004BB694 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C62BFE041D963497004BB694 /* HackGT2016.app */,
-				C62BFE161D963497004BB694 /* HackGT2016 WatchKit App.app */,
-				C62BFE251D963497004BB694 /* HackGT2016 WatchKit Extension.appex */,
+				C62BFE4B1D96368D004BB694 /* HackGT2016.app */,
+				C62BFE5D1D96368D004BB694 /* HackGT2016 WatchKit App.app */,
+				C62BFE6C1D96368D004BB694 /* HackGT2016 WatchKit Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C62BFE061D963497004BB694 /* HackGT2016 */ = {
+		C62BFE4D1D96368D004BB694 /* HackGT2016 */ = {
 			isa = PBXGroup;
 			children = (
-				C62BFE071D963497004BB694 /* AppDelegate.swift */,
-				C62BFE091D963497004BB694 /* ViewController.swift */,
-				C62BFE0B1D963497004BB694 /* Main.storyboard */,
-				C62BFE0E1D963497004BB694 /* Assets.xcassets */,
-				C62BFE101D963497004BB694 /* LaunchScreen.storyboard */,
-				C62BFE131D963497004BB694 /* Info.plist */,
+				C62BFE4E1D96368D004BB694 /* AppDelegate.swift */,
+				C62BFE501D96368D004BB694 /* ViewController.swift */,
+				C62BFE521D96368D004BB694 /* Main.storyboard */,
+				C62BFE551D96368D004BB694 /* Assets.xcassets */,
+				C62BFE571D96368D004BB694 /* LaunchScreen.storyboard */,
+				C62BFE5A1D96368D004BB694 /* Info.plist */,
 			);
 			path = HackGT2016;
 			sourceTree = "<group>";
 		};
-		C62BFE1A1D963497004BB694 /* HackGT2016 WatchKit App */ = {
+		C62BFE611D96368D004BB694 /* HackGT2016 WatchKit App */ = {
 			isa = PBXGroup;
 			children = (
-				C62BFE1B1D963497004BB694 /* Interface.storyboard */,
-				C62BFE1E1D963497004BB694 /* Assets.xcassets */,
-				C62BFE201D963497004BB694 /* Info.plist */,
+				C62BFE621D96368D004BB694 /* Interface.storyboard */,
+				C62BFE651D96368D004BB694 /* Assets.xcassets */,
+				C62BFE671D96368D004BB694 /* Info.plist */,
 			);
 			path = "HackGT2016 WatchKit App";
 			sourceTree = "<group>";
 		};
-		C62BFE291D963497004BB694 /* HackGT2016 WatchKit Extension */ = {
+		C62BFE701D96368D004BB694 /* HackGT2016 WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
-				C62BFE2C1D963497004BB694 /* InterfaceController.swift */,
-				C62BFE2E1D963497004BB694 /* ExtensionDelegate.swift */,
-				C62BFE301D963497004BB694 /* NotificationController.swift */,
-				C62BFE321D963497004BB694 /* Assets.xcassets */,
-				C62BFE341D963497004BB694 /* Info.plist */,
-				C62BFE2A1D963497004BB694 /* Supporting Files */,
+				C62BFE711D96368D004BB694 /* InterfaceController.swift */,
+				C62BFE731D96368D004BB694 /* ExtensionDelegate.swift */,
+				C62BFE751D96368D004BB694 /* Assets.xcassets */,
+				C62BFE771D96368D004BB694 /* Info.plist */,
 			);
 			path = "HackGT2016 WatchKit Extension";
-			sourceTree = "<group>";
-		};
-		C62BFE2A1D963497004BB694 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				C62BFE2B1D963497004BB694 /* PushNotificationPayload.apns */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C62BFE031D963496004BB694 /* HackGT2016 */ = {
+		C62BFE4A1D96368D004BB694 /* HackGT2016 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C62BFE3F1D963497004BB694 /* Build configuration list for PBXNativeTarget "HackGT2016" */;
+			buildConfigurationList = C62BFE821D96368D004BB694 /* Build configuration list for PBXNativeTarget "HackGT2016" */;
 			buildPhases = (
-				C62BFE001D963496004BB694 /* Sources */,
-				C62BFE011D963496004BB694 /* Frameworks */,
-				C62BFE021D963496004BB694 /* Resources */,
-				C62BFE3E1D963497004BB694 /* Embed Watch Content */,
+				C62BFE471D96368D004BB694 /* Sources */,
+				C62BFE481D96368D004BB694 /* Frameworks */,
+				C62BFE491D96368D004BB694 /* Resources */,
+				C62BFE811D96368D004BB694 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C62BFE191D963497004BB694 /* PBXTargetDependency */,
+				C62BFE601D96368D004BB694 /* PBXTargetDependency */,
 			);
 			name = HackGT2016;
 			productName = HackGT2016;
-			productReference = C62BFE041D963497004BB694 /* HackGT2016.app */;
+			productReference = C62BFE4B1D96368D004BB694 /* HackGT2016.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C62BFE151D963497004BB694 /* HackGT2016 WatchKit App */ = {
+		C62BFE5C1D96368D004BB694 /* HackGT2016 WatchKit App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C62BFE3B1D963497004BB694 /* Build configuration list for PBXNativeTarget "HackGT2016 WatchKit App" */;
+			buildConfigurationList = C62BFE7E1D96368D004BB694 /* Build configuration list for PBXNativeTarget "HackGT2016 WatchKit App" */;
 			buildPhases = (
-				C62BFE141D963497004BB694 /* Resources */,
-				C62BFE3A1D963497004BB694 /* Embed App Extensions */,
+				C62BFE5B1D96368D004BB694 /* Resources */,
+				C62BFE7D1D96368D004BB694 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C62BFE281D963497004BB694 /* PBXTargetDependency */,
+				C62BFE6F1D96368D004BB694 /* PBXTargetDependency */,
 			);
 			name = "HackGT2016 WatchKit App";
 			productName = "HackGT2016 WatchKit App";
-			productReference = C62BFE161D963497004BB694 /* HackGT2016 WatchKit App.app */;
+			productReference = C62BFE5D1D96368D004BB694 /* HackGT2016 WatchKit App.app */;
 			productType = "com.apple.product-type.application.watchapp2";
 		};
-		C62BFE241D963497004BB694 /* HackGT2016 WatchKit Extension */ = {
+		C62BFE6B1D96368D004BB694 /* HackGT2016 WatchKit Extension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C62BFE371D963497004BB694 /* Build configuration list for PBXNativeTarget "HackGT2016 WatchKit Extension" */;
+			buildConfigurationList = C62BFE7A1D96368D004BB694 /* Build configuration list for PBXNativeTarget "HackGT2016 WatchKit Extension" */;
 			buildPhases = (
-				C62BFE211D963497004BB694 /* Sources */,
-				C62BFE221D963497004BB694 /* Frameworks */,
-				C62BFE231D963497004BB694 /* Resources */,
+				C62BFE681D96368D004BB694 /* Sources */,
+				C62BFE691D96368D004BB694 /* Frameworks */,
+				C62BFE6A1D96368D004BB694 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -220,36 +207,33 @@
 			);
 			name = "HackGT2016 WatchKit Extension";
 			productName = "HackGT2016 WatchKit Extension";
-			productReference = C62BFE251D963497004BB694 /* HackGT2016 WatchKit Extension.appex */;
+			productReference = C62BFE6C1D96368D004BB694 /* HackGT2016 WatchKit Extension.appex */;
 			productType = "com.apple.product-type.watchkit2-extension";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		C62BFDFC1D963496004BB694 /* Project object */ = {
+		C62BFE431D96368D004BB694 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
 				LastUpgradeCheck = 0800;
-				ORGANIZATIONNAME = "David Yeung";
 				TargetAttributes = {
-					C62BFE031D963496004BB694 = {
+					C62BFE4A1D96368D004BB694 = {
 						CreatedOnToolsVersion = 8.0;
 						ProvisioningStyle = Automatic;
 					};
-					C62BFE151D963497004BB694 = {
+					C62BFE5C1D96368D004BB694 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = 4DK3EWYFQC;
 						ProvisioningStyle = Automatic;
 					};
-					C62BFE241D963497004BB694 = {
+					C62BFE6B1D96368D004BB694 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = 4DK3EWYFQC;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = C62BFDFF1D963496004BB694 /* Build configuration list for PBXProject "HackGT2016" */;
+			buildConfigurationList = C62BFE461D96368D004BB694 /* Build configuration list for PBXProject "HackGT2016" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -257,104 +241,103 @@
 				en,
 				Base,
 			);
-			mainGroup = C62BFDFB1D963496004BB694;
-			productRefGroup = C62BFE051D963497004BB694 /* Products */;
+			mainGroup = C62BFE421D96368D004BB694;
+			productRefGroup = C62BFE4C1D96368D004BB694 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C62BFE031D963496004BB694 /* HackGT2016 */,
-				C62BFE151D963497004BB694 /* HackGT2016 WatchKit App */,
-				C62BFE241D963497004BB694 /* HackGT2016 WatchKit Extension */,
+				C62BFE4A1D96368D004BB694 /* HackGT2016 */,
+				C62BFE5C1D96368D004BB694 /* HackGT2016 WatchKit App */,
+				C62BFE6B1D96368D004BB694 /* HackGT2016 WatchKit Extension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		C62BFE021D963496004BB694 /* Resources */ = {
+		C62BFE491D96368D004BB694 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C62BFE121D963497004BB694 /* LaunchScreen.storyboard in Resources */,
-				C62BFE0F1D963497004BB694 /* Assets.xcassets in Resources */,
-				C62BFE0D1D963497004BB694 /* Main.storyboard in Resources */,
+				C62BFE591D96368D004BB694 /* LaunchScreen.storyboard in Resources */,
+				C62BFE561D96368D004BB694 /* Assets.xcassets in Resources */,
+				C62BFE541D96368D004BB694 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C62BFE141D963497004BB694 /* Resources */ = {
+		C62BFE5B1D96368D004BB694 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C62BFE1F1D963497004BB694 /* Assets.xcassets in Resources */,
-				C62BFE1D1D963497004BB694 /* Interface.storyboard in Resources */,
+				C62BFE661D96368D004BB694 /* Assets.xcassets in Resources */,
+				C62BFE641D96368D004BB694 /* Interface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C62BFE231D963497004BB694 /* Resources */ = {
+		C62BFE6A1D96368D004BB694 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C62BFE331D963497004BB694 /* Assets.xcassets in Resources */,
+				C62BFE761D96368D004BB694 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C62BFE001D963496004BB694 /* Sources */ = {
+		C62BFE471D96368D004BB694 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C62BFE0A1D963497004BB694 /* ViewController.swift in Sources */,
-				C62BFE081D963497004BB694 /* AppDelegate.swift in Sources */,
+				C62BFE511D96368D004BB694 /* ViewController.swift in Sources */,
+				C62BFE4F1D96368D004BB694 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C62BFE211D963497004BB694 /* Sources */ = {
+		C62BFE681D96368D004BB694 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C62BFE311D963497004BB694 /* NotificationController.swift in Sources */,
-				C62BFE2F1D963497004BB694 /* ExtensionDelegate.swift in Sources */,
-				C62BFE2D1D963497004BB694 /* InterfaceController.swift in Sources */,
+				C62BFE741D96368D004BB694 /* ExtensionDelegate.swift in Sources */,
+				C62BFE721D96368D004BB694 /* InterfaceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		C62BFE191D963497004BB694 /* PBXTargetDependency */ = {
+		C62BFE601D96368D004BB694 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C62BFE151D963497004BB694 /* HackGT2016 WatchKit App */;
-			targetProxy = C62BFE181D963497004BB694 /* PBXContainerItemProxy */;
+			target = C62BFE5C1D96368D004BB694 /* HackGT2016 WatchKit App */;
+			targetProxy = C62BFE5F1D96368D004BB694 /* PBXContainerItemProxy */;
 		};
-		C62BFE281D963497004BB694 /* PBXTargetDependency */ = {
+		C62BFE6F1D96368D004BB694 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C62BFE241D963497004BB694 /* HackGT2016 WatchKit Extension */;
-			targetProxy = C62BFE271D963497004BB694 /* PBXContainerItemProxy */;
+			target = C62BFE6B1D96368D004BB694 /* HackGT2016 WatchKit Extension */;
+			targetProxy = C62BFE6E1D96368D004BB694 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		C62BFE0B1D963497004BB694 /* Main.storyboard */ = {
+		C62BFE521D96368D004BB694 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C62BFE0C1D963497004BB694 /* Base */,
+				C62BFE531D96368D004BB694 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		C62BFE101D963497004BB694 /* LaunchScreen.storyboard */ = {
+		C62BFE571D96368D004BB694 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C62BFE111D963497004BB694 /* Base */,
+				C62BFE581D96368D004BB694 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
-		C62BFE1B1D963497004BB694 /* Interface.storyboard */ = {
+		C62BFE621D96368D004BB694 /* Interface.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C62BFE1C1D963497004BB694 /* Base */,
+				C62BFE631D96368D004BB694 /* Base */,
 			);
 			name = Interface.storyboard;
 			sourceTree = "<group>";
@@ -362,7 +345,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		C62BFE351D963497004BB694 /* Debug */ = {
+		C62BFE781D96368D004BB694 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -411,7 +394,7 @@
 			};
 			name = Debug;
 		};
-		C62BFE361D963497004BB694 /* Release */ = {
+		C62BFE791D96368D004BB694 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -453,14 +436,13 @@
 			};
 			name = Release;
 		};
-		C62BFE381D963497004BB694 /* Debug */ = {
+		C62BFE7B1D96368D004BB694 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
-				DEVELOPMENT_TEAM = 4DK3EWYFQC;
 				INFOPLIST_FILE = "HackGT2016 WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.david.HackGT2016.watchkitapp.watchkitextension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gatornation.HackGT2016.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -470,14 +452,13 @@
 			};
 			name = Debug;
 		};
-		C62BFE391D963497004BB694 /* Release */ = {
+		C62BFE7C1D96368D004BB694 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
-				DEVELOPMENT_TEAM = 4DK3EWYFQC;
 				INFOPLIST_FILE = "HackGT2016 WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.david.HackGT2016.watchkitapp.watchkitextension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gatornation.HackGT2016.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -487,15 +468,14 @@
 			};
 			name = Release;
 		};
-		C62BFE3C1D963497004BB694 /* Debug */ = {
+		C62BFE7F1D96368D004BB694 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 4DK3EWYFQC;
 				IBSC_MODULE = HackGT2016_WatchKit_Extension;
 				INFOPLIST_FILE = "HackGT2016 WatchKit App/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = com.david.HackGT2016.watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gatornation.HackGT2016.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -505,15 +485,14 @@
 			};
 			name = Debug;
 		};
-		C62BFE3D1D963497004BB694 /* Release */ = {
+		C62BFE801D96368D004BB694 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 4DK3EWYFQC;
 				IBSC_MODULE = HackGT2016_WatchKit_Extension;
 				INFOPLIST_FILE = "HackGT2016 WatchKit App/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = com.david.HackGT2016.watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gatornation.HackGT2016.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -523,27 +502,25 @@
 			};
 			name = Release;
 		};
-		C62BFE401D963497004BB694 /* Debug */ = {
+		C62BFE831D96368D004BB694 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = HackGT2016/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.david.HackGT2016;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gatornation.HackGT2016;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
-		C62BFE411D963497004BB694 /* Release */ = {
+		C62BFE841D96368D004BB694 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = HackGT2016/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.david.HackGT2016;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gatornation.HackGT2016;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -552,40 +529,40 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C62BFDFF1D963496004BB694 /* Build configuration list for PBXProject "HackGT2016" */ = {
+		C62BFE461D96368D004BB694 /* Build configuration list for PBXProject "HackGT2016" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C62BFE351D963497004BB694 /* Debug */,
-				C62BFE361D963497004BB694 /* Release */,
+				C62BFE781D96368D004BB694 /* Debug */,
+				C62BFE791D96368D004BB694 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C62BFE371D963497004BB694 /* Build configuration list for PBXNativeTarget "HackGT2016 WatchKit Extension" */ = {
+		C62BFE7A1D96368D004BB694 /* Build configuration list for PBXNativeTarget "HackGT2016 WatchKit Extension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C62BFE381D963497004BB694 /* Debug */,
-				C62BFE391D963497004BB694 /* Release */,
+				C62BFE7B1D96368D004BB694 /* Debug */,
+				C62BFE7C1D96368D004BB694 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		C62BFE3B1D963497004BB694 /* Build configuration list for PBXNativeTarget "HackGT2016 WatchKit App" */ = {
+		C62BFE7E1D96368D004BB694 /* Build configuration list for PBXNativeTarget "HackGT2016 WatchKit App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C62BFE3C1D963497004BB694 /* Debug */,
-				C62BFE3D1D963497004BB694 /* Release */,
+				C62BFE7F1D96368D004BB694 /* Debug */,
+				C62BFE801D96368D004BB694 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		C62BFE3F1D963497004BB694 /* Build configuration list for PBXNativeTarget "HackGT2016" */ = {
+		C62BFE821D96368D004BB694 /* Build configuration list for PBXNativeTarget "HackGT2016" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C62BFE401D963497004BB694 /* Debug */,
-				C62BFE411D963497004BB694 /* Release */,
+				C62BFE831D96368D004BB694 /* Debug */,
+				C62BFE841D96368D004BB694 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = C62BFDFC1D963496004BB694 /* Project object */;
+	rootObject = C62BFE431D96368D004BB694 /* Project object */;
 }
