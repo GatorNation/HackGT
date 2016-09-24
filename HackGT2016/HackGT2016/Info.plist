@@ -24,8 +24,12 @@
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
 	<string>Main</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>&quot;Click allow to share your location with your emergency contact if you have a seizure&quot;</string>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
+		<string></string>
+		<string>Your location is needed to show your current location</string>
 		<string>armv7</string>
 	</array>
 	<key>UISupportedInterfaceOrientations</key>
