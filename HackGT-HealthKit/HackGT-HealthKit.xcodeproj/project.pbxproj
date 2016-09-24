@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		083DFB9FF9F64EFFC4EDED00 /* Pods_HackGT_HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1FA4E61FEAF243E51BACD4D /* Pods_HackGT_HealthKit.framework */; };
+		BC6C351A9CF257DEDB9CD61D /* Pods_HackGT_HealthKit_WatchKit_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE10E762E6C1233CDEC9E045 /* Pods_HackGT_HealthKit_WatchKit_App.framework */; };
+		C6E23C3C1D96B169003AE1EF /* MainScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E23C3B1D96B169003AE1EF /* MainScrollViewController.swift */; };
+		C6E23C3F1D96B865003AE1EF /* ContactInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E23C3D1D96B865003AE1EF /* ContactInfoViewController.swift */; };
+		C6E23C401D96B865003AE1EF /* ContactInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6E23C3E1D96B865003AE1EF /* ContactInfoViewController.xib */; };
+		C6E23C671D96BC78003AE1EF /* CoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C6E23C651D96BC78003AE1EF /* CoreData.xcdatamodeld */; };
+		C6E23C6A1D96E034003AE1EF /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E23C681D96E034003AE1EF /* HomeViewController.swift */; };
+		C6E23C6B1D96E034003AE1EF /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6E23C691D96E034003AE1EF /* HomeViewController.xib */; };
+		C6E23C721D96E70C003AE1EF /* Phone-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C6E23C711D96E70C003AE1EF /* Phone-icon.png */; };
+		C6E23C751D96F770003AE1EF /* WatchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E23C741D96F770003AE1EF /* WatchController.swift */; };
 		C6F48F421D96642D000F67D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F48F411D96642D000F67D2 /* AppDelegate.swift */; };
 		C6F48F441D96642D000F67D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F48F431D96642D000F67D2 /* ViewController.swift */; };
 		C6F48F471D96642D000F67D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6F48F451D96642D000F67D2 /* Main.storyboard */; };
@@ -18,13 +28,11 @@
 		C6F48F651D96642D000F67D2 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F48F641D96642D000F67D2 /* InterfaceController.swift */; };
 		C6F48F671D96642D000F67D2 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F48F661D96642D000F67D2 /* ExtensionDelegate.swift */; };
 		C6F48F691D96642D000F67D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6F48F681D96642D000F67D2 /* Assets.xcassets */; };
-		C6F48F7B1D966590000F67D2 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6F48F7A1D966590000F67D2 /* HealthKit.framework */; };
 		C6F48F7D1D9667D4000F67D2 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6F48F7C1D9667D4000F67D2 /* HealthKit.framework */; };
 		C6F48F801D967361000F67D2 /* SendToPhoneInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F48F7F1D967361000F67D2 /* SendToPhoneInterfaceController.swift */; };
 		C6F48F821D96772A000F67D2 /* MotionInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F48F811D96772A000F67D2 /* MotionInterfaceController.swift */; };
 		C6F48F851D9679E5000F67D2 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6F48F831D9679E5000F67D2 /* Interface.storyboard */; };
-		C6F48F871D96A29D000F67D2 /* HosiTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F48F861D96A29D000F67D2 /* HosiTextView.swift */; };
-		C6F48F891D96A35F000F67D2 /* ContactInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F48F881D96A35F000F67D2 /* ContactInfoViewController.swift */; };
+		E9FE73FA95B4DB17DD7DEA1F /* Pods_HackGT_HealthKit_WatchKit_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED3553403AAA369AA841B3F2 /* Pods_HackGT_HealthKit_WatchKit_Extension.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +78,18 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3409F06EBCCBF94730445C34 /* Pods-HackGT-HealthKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackGT-HealthKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-HackGT-HealthKit/Pods-HackGT-HealthKit.release.xcconfig"; sourceTree = "<group>"; };
+		8CFAFE605B7EF2A4491B404C /* Pods-HackGT-HealthKit WatchKit App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackGT-HealthKit WatchKit App.release.xcconfig"; path = "Pods/Target Support Files/Pods-HackGT-HealthKit WatchKit App/Pods-HackGT-HealthKit WatchKit App.release.xcconfig"; sourceTree = "<group>"; };
+		8D7902C8C6F5AFB89A0E8B2C /* Pods-HackGT-HealthKit WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackGT-HealthKit WatchKit Extension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HackGT-HealthKit WatchKit Extension/Pods-HackGT-HealthKit WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		9B6E5085B3A3C9A5B8444C01 /* Pods-HackGT-HealthKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackGT-HealthKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HackGT-HealthKit/Pods-HackGT-HealthKit.debug.xcconfig"; sourceTree = "<group>"; };
+		C6E23C3B1D96B169003AE1EF /* MainScrollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScrollViewController.swift; sourceTree = "<group>"; };
+		C6E23C3D1D96B865003AE1EF /* ContactInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactInfoViewController.swift; sourceTree = "<group>"; };
+		C6E23C3E1D96B865003AE1EF /* ContactInfoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContactInfoViewController.xib; sourceTree = "<group>"; };
+		C6E23C661D96BC78003AE1EF /* CoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreData.xcdatamodel; sourceTree = "<group>"; };
+		C6E23C681D96E034003AE1EF /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		C6E23C691D96E034003AE1EF /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		C6E23C711D96E70C003AE1EF /* Phone-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Phone-icon.png"; sourceTree = "<group>"; };
+		C6E23C741D96F770003AE1EF /* WatchController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatchController.swift; sourceTree = "<group>"; };
 		C6F48F3E1D96642D000F67D2 /* HackGT-HealthKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HackGT-HealthKit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6F48F411D96642D000F67D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C6F48F431D96642D000F67D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -86,22 +106,32 @@
 		C6F48F681D96642D000F67D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C6F48F6A1D96642D000F67D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C6F48F781D96658F000F67D2 /* HackGT-HealthKit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "HackGT-HealthKit.entitlements"; sourceTree = "<group>"; };
-		C6F48F7A1D966590000F67D2 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
 		C6F48F7C1D9667D4000F67D2 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS3.0.sdk/System/Library/Frameworks/HealthKit.framework; sourceTree = DEVELOPER_DIR; };
 		C6F48F7E1D9667D4000F67D2 /* HackGT-HealthKit WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "HackGT-HealthKit WatchKit Extension.entitlements"; sourceTree = "<group>"; };
 		C6F48F7F1D967361000F67D2 /* SendToPhoneInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SendToPhoneInterfaceController.swift; sourceTree = "<group>"; };
 		C6F48F811D96772A000F67D2 /* MotionInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MotionInterfaceController.swift; sourceTree = "<group>"; };
 		C6F48F841D9679E5000F67D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
-		C6F48F861D96A29D000F67D2 /* HosiTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HosiTextView.swift; sourceTree = "<group>"; };
-		C6F48F881D96A35F000F67D2 /* ContactInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactInfoViewController.swift; sourceTree = "<group>"; };
+		D1FA4E61FEAF243E51BACD4D /* Pods_HackGT_HealthKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HackGT_HealthKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8455A49C646FE025DF16A95 /* Pods-HackGT-HealthKit WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackGT-HealthKit WatchKit Extension.release.xcconfig"; path = "Pods/Target Support Files/Pods-HackGT-HealthKit WatchKit Extension/Pods-HackGT-HealthKit WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
+		ED3553403AAA369AA841B3F2 /* Pods_HackGT_HealthKit_WatchKit_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HackGT_HealthKit_WatchKit_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE10E762E6C1233CDEC9E045 /* Pods_HackGT_HealthKit_WatchKit_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HackGT_HealthKit_WatchKit_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3821FEA2C4AD8581D24FAC3 /* Pods-HackGT-HealthKit WatchKit App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackGT-HealthKit WatchKit App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HackGT-HealthKit WatchKit App/Pods-HackGT-HealthKit WatchKit App.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		11E91C5EEAC6704D85B031A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC6C351A9CF257DEDB9CD61D /* Pods_HackGT_HealthKit_WatchKit_App.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C6F48F3B1D96642D000F67D2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6F48F7B1D966590000F67D2 /* HealthKit.framework in Frameworks */,
+				083DFB9FF9F64EFFC4EDED00 /* Pods_HackGT_HealthKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,12 +140,44 @@
 			buildActionMask = 2147483647;
 			files = (
 				C6F48F7D1D9667D4000F67D2 /* HealthKit.framework in Frameworks */,
+				E9FE73FA95B4DB17DD7DEA1F /* Pods_HackGT_HealthKit_WatchKit_Extension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B7D784ACCEBA20F67D13E4E0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9B6E5085B3A3C9A5B8444C01 /* Pods-HackGT-HealthKit.debug.xcconfig */,
+				3409F06EBCCBF94730445C34 /* Pods-HackGT-HealthKit.release.xcconfig */,
+				F3821FEA2C4AD8581D24FAC3 /* Pods-HackGT-HealthKit WatchKit App.debug.xcconfig */,
+				8CFAFE605B7EF2A4491B404C /* Pods-HackGT-HealthKit WatchKit App.release.xcconfig */,
+				8D7902C8C6F5AFB89A0E8B2C /* Pods-HackGT-HealthKit WatchKit Extension.debug.xcconfig */,
+				D8455A49C646FE025DF16A95 /* Pods-HackGT-HealthKit WatchKit Extension.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C6E23C6C1D96E2BA003AE1EF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C6E23C711D96E70C003AE1EF /* Phone-icon.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C6E23C731D96EC51003AE1EF /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				C6E23C691D96E034003AE1EF /* HomeViewController.xib */,
+				C6E23C3E1D96B865003AE1EF /* ContactInfoViewController.xib */,
+				C6F48F451D96642D000F67D2 /* Main.storyboard */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
 		C6F48F351D96642D000F67D2 = {
 			isa = PBXGroup;
 			children = (
@@ -124,6 +186,7 @@
 				C6F48F631D96642D000F67D2 /* HackGT-HealthKit WatchKit Extension */,
 				C6F48F3F1D96642D000F67D2 /* Products */,
 				C6F48F791D966590000F67D2 /* Frameworks */,
+				B7D784ACCEBA20F67D13E4E0 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -140,12 +203,15 @@
 		C6F48F401D96642D000F67D2 /* HackGT-HealthKit */ = {
 			isa = PBXGroup;
 			children = (
+				C6E23C6C1D96E2BA003AE1EF /* Resources */,
 				C6F48F781D96658F000F67D2 /* HackGT-HealthKit.entitlements */,
+				C6E23C651D96BC78003AE1EF /* CoreData.xcdatamodeld */,
 				C6F48F411D96642D000F67D2 /* AppDelegate.swift */,
 				C6F48F431D96642D000F67D2 /* ViewController.swift */,
-				C6F48F881D96A35F000F67D2 /* ContactInfoViewController.swift */,
-				C6F48F451D96642D000F67D2 /* Main.storyboard */,
-				C6F48F861D96A29D000F67D2 /* HosiTextView.swift */,
+				C6E23C3B1D96B169003AE1EF /* MainScrollViewController.swift */,
+				C6E23C3D1D96B865003AE1EF /* ContactInfoViewController.swift */,
+				C6E23C681D96E034003AE1EF /* HomeViewController.swift */,
+				C6E23C731D96EC51003AE1EF /* UI */,
 				C6F48F481D96642D000F67D2 /* Assets.xcassets */,
 				C6F48F4A1D96642D000F67D2 /* LaunchScreen.storyboard */,
 				C6F48F4D1D96642D000F67D2 /* Info.plist */,
@@ -166,6 +232,7 @@
 		C6F48F631D96642D000F67D2 /* HackGT-HealthKit WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				C6E23C741D96F770003AE1EF /* WatchController.swift */,
 				C6F48F7E1D9667D4000F67D2 /* HackGT-HealthKit WatchKit Extension.entitlements */,
 				C6F48F641D96642D000F67D2 /* InterfaceController.swift */,
 				C6F48F7F1D967361000F67D2 /* SendToPhoneInterfaceController.swift */,
@@ -181,7 +248,9 @@
 			isa = PBXGroup;
 			children = (
 				C6F48F7C1D9667D4000F67D2 /* HealthKit.framework */,
-				C6F48F7A1D966590000F67D2 /* HealthKit.framework */,
+				D1FA4E61FEAF243E51BACD4D /* Pods_HackGT_HealthKit.framework */,
+				EE10E762E6C1233CDEC9E045 /* Pods_HackGT_HealthKit_WatchKit_App.framework */,
+				ED3553403AAA369AA841B3F2 /* Pods_HackGT_HealthKit_WatchKit_Extension.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -193,10 +262,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C6F48F751D96642D000F67D2 /* Build configuration list for PBXNativeTarget "HackGT-HealthKit" */;
 			buildPhases = (
+				84ACC076DD48A335BB0A3B97 /* [CP] Check Pods Manifest.lock */,
 				C6F48F3A1D96642D000F67D2 /* Sources */,
 				C6F48F3B1D96642D000F67D2 /* Frameworks */,
 				C6F48F3C1D96642D000F67D2 /* Resources */,
 				C6F48F741D96642D000F67D2 /* Embed Watch Content */,
+				76099C27C051144BE1B9F671 /* [CP] Embed Pods Frameworks */,
+				31E53FA8C54B9A61C8025F6C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -212,8 +284,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C6F48F711D96642D000F67D2 /* Build configuration list for PBXNativeTarget "HackGT-HealthKit WatchKit App" */;
 			buildPhases = (
+				1FBC8B915E0C75310412EEAB /* [CP] Check Pods Manifest.lock */,
 				C6F48F4E1D96642D000F67D2 /* Resources */,
 				C6F48F701D96642D000F67D2 /* Embed App Extensions */,
+				11E91C5EEAC6704D85B031A7 /* Frameworks */,
+				68DE6B4B9719B833E1E516AD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -229,9 +304,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C6F48F6D1D96642D000F67D2 /* Build configuration list for PBXNativeTarget "HackGT-HealthKit WatchKit Extension" */;
 			buildPhases = (
+				973F2D3FC3B3AA3FF6894E88 /* [CP] Check Pods Manifest.lock */,
 				C6F48F5B1D96642D000F67D2 /* Sources */,
 				C6F48F5C1D96642D000F67D2 /* Frameworks */,
 				C6F48F5D1D96642D000F67D2 /* Resources */,
+				66E199A011AA8B6285A231BB /* [CP] Embed Pods Frameworks */,
+				2CC1973DE09DF215F143EF50 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -255,10 +333,11 @@
 					C6F48F3D1D96642D000F67D2 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 9WJA583BHU;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.HealthKit = {
-								enabled = 1;
+								enabled = 0;
 							};
 						};
 					};
@@ -304,7 +383,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6E23C721D96E70C003AE1EF /* Phone-icon.png in Resources */,
 				C6F48F4C1D96642D000F67D2 /* LaunchScreen.storyboard in Resources */,
+				C6E23C401D96B865003AE1EF /* ContactInfoViewController.xib in Resources */,
+				C6E23C6B1D96E034003AE1EF /* HomeViewController.xib in Resources */,
 				C6F48F491D96642D000F67D2 /* Assets.xcassets in Resources */,
 				C6F48F471D96642D000F67D2 /* Main.storyboard in Resources */,
 			);
@@ -329,15 +411,140 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1FBC8B915E0C75310412EEAB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2CC1973DE09DF215F143EF50 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HackGT-HealthKit WatchKit Extension/Pods-HackGT-HealthKit WatchKit Extension-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		31E53FA8C54B9A61C8025F6C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HackGT-HealthKit/Pods-HackGT-HealthKit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		66E199A011AA8B6285A231BB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HackGT-HealthKit WatchKit Extension/Pods-HackGT-HealthKit WatchKit Extension-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68DE6B4B9719B833E1E516AD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HackGT-HealthKit WatchKit App/Pods-HackGT-HealthKit WatchKit App-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76099C27C051144BE1B9F671 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HackGT-HealthKit/Pods-HackGT-HealthKit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84ACC076DD48A335BB0A3B97 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		973F2D3FC3B3AA3FF6894E88 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C6F48F3A1D96642D000F67D2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6E23C3C1D96B169003AE1EF /* MainScrollViewController.swift in Sources */,
+				C6E23C3F1D96B865003AE1EF /* ContactInfoViewController.swift in Sources */,
+				C6E23C671D96BC78003AE1EF /* CoreData.xcdatamodeld in Sources */,
 				C6F48F441D96642D000F67D2 /* ViewController.swift in Sources */,
-				C6F48F891D96A35F000F67D2 /* ContactInfoViewController.swift in Sources */,
-				C6F48F871D96A29D000F67D2 /* HosiTextView.swift in Sources */,
 				C6F48F421D96642D000F67D2 /* AppDelegate.swift in Sources */,
+				C6E23C6A1D96E034003AE1EF /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,6 +555,7 @@
 				C6F48F671D96642D000F67D2 /* ExtensionDelegate.swift in Sources */,
 				C6F48F821D96772A000F67D2 /* MotionInterfaceController.swift in Sources */,
 				C6F48F651D96642D000F67D2 /* InterfaceController.swift in Sources */,
+				C6E23C751D96F770003AE1EF /* WatchController.swift in Sources */,
 				C6F48F801D967361000F67D2 /* SendToPhoneInterfaceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -488,6 +696,7 @@
 		};
 		C6F48F6E1D96642D000F67D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D7902C8C6F5AFB89A0E8B2C /* Pods-HackGT-HealthKit WatchKit Extension.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_ENTITLEMENTS = "HackGT-HealthKit WatchKit Extension/HackGT-HealthKit WatchKit Extension.entitlements";
@@ -506,6 +715,7 @@
 		};
 		C6F48F6F1D96642D000F67D2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8455A49C646FE025DF16A95 /* Pods-HackGT-HealthKit WatchKit Extension.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_ENTITLEMENTS = "HackGT-HealthKit WatchKit Extension/HackGT-HealthKit WatchKit Extension.entitlements";
@@ -524,6 +734,7 @@
 		};
 		C6F48F721D96642D000F67D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3821FEA2C4AD8581D24FAC3 /* Pods-HackGT-HealthKit WatchKit App.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -542,6 +753,7 @@
 		};
 		C6F48F731D96642D000F67D2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CFAFE605B7EF2A4491B404C /* Pods-HackGT-HealthKit WatchKit App.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -560,6 +772,7 @@
 		};
 		C6F48F761D96642D000F67D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B6E5085B3A3C9A5B8444C01 /* Pods-HackGT-HealthKit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "HackGT-HealthKit/HackGT-HealthKit.entitlements";
@@ -574,6 +787,7 @@
 		};
 		C6F48F771D96642D000F67D2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3409F06EBCCBF94730445C34 /* Pods-HackGT-HealthKit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "HackGT-HealthKit/HackGT-HealthKit.entitlements";
@@ -605,6 +819,7 @@
 				C6F48F6F1D96642D000F67D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C6F48F711D96642D000F67D2 /* Build configuration list for PBXNativeTarget "HackGT-HealthKit WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -613,6 +828,7 @@
 				C6F48F731D96642D000F67D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C6F48F751D96642D000F67D2 /* Build configuration list for PBXNativeTarget "HackGT-HealthKit" */ = {
 			isa = XCConfigurationList;
@@ -621,8 +837,22 @@
 				C6F48F771D96642D000F67D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C6E23C651D96BC78003AE1EF /* CoreData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C6E23C661D96BC78003AE1EF /* CoreData.xcdatamodel */,
+			);
+			currentVersion = C6E23C661D96BC78003AE1EF /* CoreData.xcdatamodel */;
+			path = CoreData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = C6F48F361D96642D000F67D2 /* Project object */;
 }

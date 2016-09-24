@@ -5,30 +5,27 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="11077"/>
     </dependencies>
     <scenes>
-        <!--Interface Controller-->
+        <!--Watch Controller-->
         <scene sceneID="aou-V4-d1y">
             <objects>
-                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="HackGT_HealthKit_WatchKit_App" customModuleProvider="target">
+                <controller id="AgC-eL-Hgc" customClass="WatchController">
                     <items>
-                        <group width="1" height="39" alignment="left" id="UBs-aG-mZg">
+                        <group width="1" alignment="left" id="aBc-AJ-PLi">
                             <items>
-                                <label width="135" height="43" alignment="left" text="Label" id="STU-P8-ond"/>
+                                <label width="59" height="42" alignment="left" text="Status:" id="dfe-M0-fas"/>
+                                <label width="72" height="42" alignment="left" text="Label" id="4aU-xW-XKF"/>
                             </items>
                         </group>
-                        <group width="134" height="65" alignment="left" id="06t-42-Bxf">
-                            <items>
-                                <button width="136" height="68" alignment="left" title="HeartBeat" id="sqm-CD-EiI">
-                                    <connections>
-                                        <action selector="startBtnPressed" destination="AgC-eL-Hgc" id="mEX-jp-Ft6"/>
-                                    </connections>
-                                </button>
-                            </items>
-                        </group>
+                        <label width="134" height="48" alignment="left" text="[Countdown]" textAlignment="center" id="e5s-A9-4IM"/>
+                        <button width="134" height="50" alignment="left" title="Reset" id="sqm-CD-EiI">
+                            <connections>
+                                <action selector="reset" destination="AgC-eL-Hgc" id="3vV-6F-8Ml"/>
+                            </connections>
+                        </button>
                     </items>
                     <connections>
-                        <outlet property="heartRateLabel" destination="STU-P8-ond" id="fUQ-ym-A3V"/>
-                        <outlet property="startButton" destination="sqm-CD-EiI" id="eow-TJ-koc"/>
-                        <segue destination="yaP-HH-KBE" kind="relationship" relationship="nextPage" id="Jv9-W5-IJF"/>
+                        <outlet property="topLabel" destination="4aU-xW-XKF" id="Bf6-3F-alQ"/>
+                        <outlet property="warningLabel" destination="e5s-A9-4IM" id="f1X-Uz-GMr"/>
                     </connections>
                 </controller>
             </objects>

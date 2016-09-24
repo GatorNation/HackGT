@@ -1,0 +1,1800 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05FC4CEB34A9CF811E20D265F2332436 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2097307EA10575B3C8E234426365203 /* Foundation.framework */; };
+		065C3B0F27949BBE3E9FE1CE734A7111 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 9565560F4A476685E9F2D4E194CEB3B1 /* UIColor+Hex.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		154F913D1A8EF6D73805348BB2F323C2 /* NSArray+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A69DD0DC5F02A338A77314FE51A590E /* NSArray+PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2127F04AECDEC689A6BDC8BB1297D494 /* SwiftyButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 65BA1D10E17F5EDE6A357B1B242DE7B3 /* SwiftyButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24E753E0EB9C91BD8E5FEB95B935CAD4 /* ALView+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = C895747574157561583A3EF8B29820D8 /* ALView+PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2628A5FB3A1558EEB72E96510EBE98E1 /* BRYSerialAnimationQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 44E9EF7B99EF25CD93C854C7113517D8 /* BRYSerialAnimationQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		352CD4CB2DACFDEA1232D03186690A80 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2097307EA10575B3C8E234426365203 /* Foundation.framework */; };
+		3754BDF8555E7923EB53EFD353818F62 /* PureLayoutDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = A4866364566AEFB549242D692C73E53D /* PureLayoutDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B5C4F819CDE36BB03F996FB85023504 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2097307EA10575B3C8E234426365203 /* Foundation.framework */; };
+		3B955321F812BD10042F54541C59134A /* PureLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9395F80DA4F0723DBE6C4D603F547D97 /* PureLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C661B64B4ADC63EF96781FCE26837D7 /* SSBouncyButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9251B549A5C3A327F170854F50813193 /* SSBouncyButton-dummy.m */; };
+		4070BA73CB092E2185C166B93EB0FF96 /* SwiftyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2311BD5BBBDADD0B3159C62EAFBDD711 /* SwiftyButton.swift */; };
+		4178D1E184E32A0A74AE34DEE55D926E /* UIColor-Hex-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FC128F7DA4B7C0E45EFEBC84F2065DB7 /* UIColor-Hex-dummy.m */; };
+		42044EC4C02F9E0FA9D4D9014855391D /* Pods-HackGT-HealthKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 074B6C0C409468A579D478123C6BD84A /* Pods-HackGT-HealthKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		42A41EE259194583791D3CAB7DAA36A2 /* Pods-HackGT-HealthKit WatchKit App-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AE912D0A87E75C0A0702134FF4F0571 /* Pods-HackGT-HealthKit WatchKit App-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		446F49369519C233BD14ECA6C26BB5D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2097307EA10575B3C8E234426365203 /* Foundation.framework */; };
+		498EC7F908106DF59C6E0E42940C8BE1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2097307EA10575B3C8E234426365203 /* Foundation.framework */; };
+		52183BFD1C0233B6633EEEFE861B2AFB /* SSBouncyButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BA780F3E006F26DA452966D053872220 /* SSBouncyButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52D4FA992565A45AB3CF082415E331F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA82394ACC67CA00DA3268B55C78F57A /* Foundation.framework */; };
+		573CC19BB95E0BF27C9AEF1B0BA1A3CD /* NSArray+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF7F349A89FC3F205427255EE424829 /* NSArray+PureLayout.m */; };
+		5C7033532F50F3A635A7FA41A080A423 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2097307EA10575B3C8E234426365203 /* Foundation.framework */; };
+		62E23C1D74A95F057FA06D28EB62C1C0 /* Pods-HackGT-HealthKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AAE9ED6BE8EC5BF11CF22273CFB23F8 /* Pods-HackGT-HealthKit-dummy.m */; };
+		64599C6D76BF241577B20D6752B32C35 /* NSLayoutConstraint+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 78E4AC4E7E8BF6E0E3260349FCECC973 /* NSLayoutConstraint+PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66BE92FF1078C00F0A6A7C511E46CB8C /* SwiftyCustomContentButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AEC35A75683A35C100A26ABFEE26545 /* SwiftyCustomContentButton.swift */; };
+		681B05FF54C67AF820668147686B59AD /* PureLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D777D15477967BFACDADC9DC034910FD /* PureLayout-dummy.m */; };
+		6EB64A9A95AEBEE6125978B6D03ED43B /* PureLayout+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 4819AE9BEF3AB5F29B64A512889E0900 /* PureLayout+Internal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		711A516C5F101BC111A02BE084315E3E /* Pods-HackGT-HealthKit WatchKit Extension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E4FEE3EABA6EA1ED97E6439A69D9907A /* Pods-HackGT-HealthKit WatchKit Extension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F5C701CC2A11F612E67824327ACC48D /* BRYSerialAnimationQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA16840092277CF28DC982A537A68D8 /* BRYSerialAnimationQueue.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		81B7CF6E60DD62FF08051EF3D41B23B8 /* SwiftyButton+ResizableImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907068EA08FECC6137A43D8D954D9B95 /* SwiftyButton+ResizableImage.swift */; };
+		87A8C2933E9F6B8450FC979F7FEB37D4 /* Pods-HackGT-HealthKit WatchKit Extension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 057A2903FB42D27E8749715D9F316C38 /* Pods-HackGT-HealthKit WatchKit Extension-dummy.m */; };
+		8E0B227B3D38B8E56EB80C2D41708A66 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2097307EA10575B3C8E234426365203 /* Foundation.framework */; };
+		95CA30497E98F47D5CFFEFF4B3F49F03 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 003A3CBA5C673626C8DE8CDA8B20F7AD /* UIKit.framework */; };
+		9CB2253DEF4B6DB4FC3965BFA4632603 /* ALView+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = C9EEBA85AB9512B46BD1881740589E14 /* ALView+PureLayout.m */; };
+		A50FC3243637933D79ECBCB7DA2FA1D0 /* SSBouncyButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A5D6E74F6DA3E62330FCEBFEF022A52 /* SSBouncyButton.m */; };
+		AA49F27992C7ADAF0AAACCAF70DE6FA2 /* NSLayoutConstraint+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = AF2E4F0712802EC04C6E861C0EA3F31A /* NSLayoutConstraint+PureLayout.m */; };
+		AB33C6C6EEABEB2753850F651957B00C /* UIColor_Hex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F24F88C2C1F4A21C0778642F709498AE /* UIColor_Hex.framework */; };
+		ACA97A98A094AE043761FC73C7B97E7B /* UIImage+BetterAdditions-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8DC93A9E20778ABC410A6E6F8E64A2 /* UIImage+BetterAdditions-dummy.m */; };
+		ADE9B564FA5812691FFE7B19ACCEA6F0 /* BRYSerialAnimationQueue-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4265DD002F42C3673FF89008C0C5CBE5 /* BRYSerialAnimationQueue-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B089062D471378FD10B33D51BA860E7C /* UIImage+BetterAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 96CEF64EDD67F5BE7B7780EC1AED5F53 /* UIImage+BetterAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B1F3EECA5231B4FC4134EA32C2F137B0 /* UIColor+Hex.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E48B564176CB87095EA281C4F623B65 /* UIColor+Hex.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B88B0B9919BFBA0C2750E60990DFDB17 /* UIImage+BetterAdditions-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FACCF93843ABCCBDC7E527B1134806C /* UIImage+BetterAdditions-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B8BA42D055A2A375B966A595DA1D6A95 /* PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 42FBF589851B353E4C30241416C8DA53 /* PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA76C473D01A80A0D26E922C048F7971 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 003A3CBA5C673626C8DE8CDA8B20F7AD /* UIKit.framework */; };
+		BB836A7FCD962E9FE7ADE233AB4A9C43 /* UIImage_BetterAdditions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90B2CF048B4297B5491EE1792DD594EE /* UIImage_BetterAdditions.framework */; };
+		C35D5B14307BE7B68C659CD39B2DE97A /* BRYSerialAnimationQueue-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3902B1057FD69788E83F9B2F5256A5DE /* BRYSerialAnimationQueue-dummy.m */; };
+		C9F16DFDCB3CDD9B62603D91022FC198 /* SwiftyButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A13C910604E7DC442064B7D6CFF5624 /* SwiftyButton-dummy.m */; };
+		CDF8D834BF7806AC45379DD217CC421E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC3C97FF7D49D19A3C3EA3BE735FA020 /* QuartzCore.framework */; };
+		D38C9B64A18C2A974DFF4057F492FFD0 /* PureLayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A6CD74A7805333FB58D050D74822607 /* PureLayout.framework */; };
+		D52C86BD5980ADA581BBD5D37A781704 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 003A3CBA5C673626C8DE8CDA8B20F7AD /* UIKit.framework */; };
+		D835AA384172654F955D7F0D4B4FBCD7 /* BRYSerialAnimationQueue.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 133189E204C7808730C87148916E8FD6 /* BRYSerialAnimationQueue.framework */; };
+		DDEE556F4B94D3E3C588917C0955CD3A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 003A3CBA5C673626C8DE8CDA8B20F7AD /* UIKit.framework */; };
+		E0337221D475B68B5EBFB05BB23588C6 /* Pods-HackGT-HealthKit WatchKit App-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B4935818EB0F7902EE5B292360AC67 /* Pods-HackGT-HealthKit WatchKit App-dummy.m */; };
+		E6D9D703CE34AD3D75FE518BD229BC34 /* SSBouncyButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 626439AEBA986AA93475FC77BCD61AB3 /* SSBouncyButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E79F21F398F76A045328B790F223D2EC /* UIImage+BetterAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 845B723B8E1BBF8E68A75B7D32C5A011 /* UIImage+BetterAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EDC20B21C52CEB5F63ECF071BA0EA89F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA82394ACC67CA00DA3268B55C78F57A /* Foundation.framework */; };
+		FCB464D84CBFBC4CD6AA16BA9EED917F /* UIColor-Hex-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CB9096F3CE86CE6566D9E7D8E77E12D /* UIColor-Hex-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4B898F2D89310DCE4A8575A39885AFCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4FE952A6C96E083F4718AE1F0B04191F;
+			remoteInfo = BRYSerialAnimationQueue;
+		};
+		83001D4EE20CAE784FB8C9B256AD40A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5546F4EF065F77A3CB8E1AB113528CCF;
+			remoteInfo = PureLayout;
+		};
+		9533C4C851657A0224CDB2E981477BF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 430030315192D8B16CB6D874B0E29454;
+			remoteInfo = "UIColor-Hex";
+		};
+		A7C2E904F9F3041201BFEF812BAB9EB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5546F4EF065F77A3CB8E1AB113528CCF;
+			remoteInfo = PureLayout;
+		};
+		BB6B63F15390F934A211FF1DF86BE4BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 430030315192D8B16CB6D874B0E29454;
+			remoteInfo = "UIColor-Hex";
+		};
+		C425D532BF33D8B781816094E9E38D4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B506D81C1A71E66EC0EBF7BF3DE5224;
+			remoteInfo = "UIImage+BetterAdditions";
+		};
+		D03B4365022221FDA5845A77A07F5862 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7AEA42C889538CE946F0AF10B244257;
+			remoteInfo = SwiftyButton;
+		};
+		F51EF7F6FEB12AF5E4B23EACF22A3B5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B506D81C1A71E66EC0EBF7BF3DE5224;
+			remoteInfo = "UIImage+BetterAdditions";
+		};
+		F642AA0CBA20EB380B2CA0CF166E67A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4FE952A6C96E083F4718AE1F0B04191F;
+			remoteInfo = BRYSerialAnimationQueue;
+		};
+		FFB73DE0CA28FE3611DF83FDCE0AAC41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDF682B8060DFDF945B20809CE132429;
+			remoteInfo = SSBouncyButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		003A3CBA5C673626C8DE8CDA8B20F7AD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		035A72688001747E3AA20228FB1BAC14 /* Pods-HackGT-HealthKit WatchKit Extension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HackGT-HealthKit WatchKit Extension.modulemap"; sourceTree = "<group>"; };
+		057A2903FB42D27E8749715D9F316C38 /* Pods-HackGT-HealthKit WatchKit Extension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HackGT-HealthKit WatchKit Extension-dummy.m"; sourceTree = "<group>"; };
+		074B6C0C409468A579D478123C6BD84A /* Pods-HackGT-HealthKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HackGT-HealthKit-umbrella.h"; sourceTree = "<group>"; };
+		076F9FC2AADBF155D3E7C8D47F591219 /* BRYSerialAnimationQueue.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BRYSerialAnimationQueue.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0841EE1B5E400ED9733109A825834CA5 /* BRYSerialAnimationQueue-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BRYSerialAnimationQueue-prefix.pch"; sourceTree = "<group>"; };
+		0A8DC93A9E20778ABC410A6E6F8E64A2 /* UIImage+BetterAdditions-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+BetterAdditions-dummy.m"; sourceTree = "<group>"; };
+		0D19C18E97DF36FE8BD89978FDD112F1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0FEFACB47F05266F55DC8C4FE42FF33B /* Pods-HackGT-HealthKit WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HackGT-HealthKit WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		133189E204C7808730C87148916E8FD6 /* BRYSerialAnimationQueue.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BRYSerialAnimationQueue.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		162883E475ABADF0E25CEB83797C6293 /* Pods_HackGT_HealthKit_WatchKit_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HackGT_HealthKit_WatchKit_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C36593D20D8574FD42FE75434FF2B3A /* PureLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PureLayout.xcconfig; sourceTree = "<group>"; };
+		21194777A7764F38BA37E1E44E9832FF /* SSBouncyButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SSBouncyButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2311BD5BBBDADD0B3159C62EAFBDD711 /* SwiftyButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyButton.swift; path = SwiftyButton/SwiftyButton.swift; sourceTree = "<group>"; };
+		28295CCB4E6A98358838E12E09AA3CA2 /* Pods-HackGT-HealthKit-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HackGT-HealthKit-resources.sh"; sourceTree = "<group>"; };
+		2E833ED489A4E6E369043DFF708F4926 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32B4935818EB0F7902EE5B292360AC67 /* Pods-HackGT-HealthKit WatchKit App-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HackGT-HealthKit WatchKit App-dummy.m"; sourceTree = "<group>"; };
+		334F65336FBCC79EFC712167FD173E9E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3902B1057FD69788E83F9B2F5256A5DE /* BRYSerialAnimationQueue-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BRYSerialAnimationQueue-dummy.m"; sourceTree = "<group>"; };
+		3A13C910604E7DC442064B7D6CFF5624 /* SwiftyButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyButton-dummy.m"; sourceTree = "<group>"; };
+		3A69DD0DC5F02A338A77314FE51A590E /* NSArray+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+PureLayout.h"; path = "PureLayout/PureLayout/NSArray+PureLayout.h"; sourceTree = "<group>"; };
+		3A6CD74A7805333FB58D050D74822607 /* PureLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PureLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AEC35A75683A35C100A26ABFEE26545 /* SwiftyCustomContentButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyCustomContentButton.swift; path = SwiftyButton/SwiftyCustomContentButton.swift; sourceTree = "<group>"; };
+		3BAF4FBEE9F538D28F3B1AE20632D33E /* UIColor-Hex-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor-Hex-prefix.pch"; sourceTree = "<group>"; };
+		3F3778A2E2C94B749F7B8D96D0EEA407 /* Pods-HackGT-HealthKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HackGT-HealthKit.debug.xcconfig"; sourceTree = "<group>"; };
+		4265DD002F42C3673FF89008C0C5CBE5 /* BRYSerialAnimationQueue-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BRYSerialAnimationQueue-umbrella.h"; sourceTree = "<group>"; };
+		42C0C38D4E302DEBB60423DA3175FD87 /* Pods-HackGT-HealthKit WatchKit App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HackGT-HealthKit WatchKit App.debug.xcconfig"; sourceTree = "<group>"; };
+		42FBF589851B353E4C30241416C8DA53 /* PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PureLayout.h; path = PureLayout/PureLayout/PureLayout.h; sourceTree = "<group>"; };
+		44E9EF7B99EF25CD93C854C7113517D8 /* BRYSerialAnimationQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BRYSerialAnimationQueue.h; path = Classes/BRYSerialAnimationQueue.h; sourceTree = "<group>"; };
+		4705E6215887E1C6D6DEDB01307682D8 /* BRYSerialAnimationQueue.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BRYSerialAnimationQueue.xcconfig; sourceTree = "<group>"; };
+		47122F9E3AD4E02A66C63FB342520864 /* SSBouncyButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SSBouncyButton.modulemap; sourceTree = "<group>"; };
+		4819AE9BEF3AB5F29B64A512889E0900 /* PureLayout+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "PureLayout+Internal.h"; path = "PureLayout/PureLayout/PureLayout+Internal.h"; sourceTree = "<group>"; };
+		4BB2567153705C90E5646034C3A1B150 /* Pods_HackGT_HealthKit_WatchKit_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HackGT_HealthKit_WatchKit_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DFBB9F2EF49DB753E6665E30BA88B13 /* Pods-HackGT-HealthKit WatchKit App-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HackGT-HealthKit WatchKit App-acknowledgements.plist"; sourceTree = "<group>"; };
+		4E19AD83204C822332F3AAF372FA507D /* PureLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PureLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E86D678FE49706E846CAB3544E09633 /* Pods-HackGT-HealthKit WatchKit App-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HackGT-HealthKit WatchKit App-frameworks.sh"; sourceTree = "<group>"; };
+		4EA16840092277CF28DC982A537A68D8 /* BRYSerialAnimationQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BRYSerialAnimationQueue.m; path = Classes/BRYSerialAnimationQueue.m; sourceTree = "<group>"; };
+		4F4AA47141AD7C1DE5758DB994C52F5F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A52C87B887DF964C293C6E355555CC2 /* UIImage+BetterAdditions.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "UIImage+BetterAdditions.xcconfig"; sourceTree = "<group>"; };
+		5ABEB3636DE7EA4D0F288DE16C03827E /* Pods-HackGT-HealthKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HackGT-HealthKit.release.xcconfig"; sourceTree = "<group>"; };
+		5AF7F349A89FC3F205427255EE424829 /* NSArray+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+PureLayout.m"; path = "PureLayout/PureLayout/NSArray+PureLayout.m"; sourceTree = "<group>"; };
+		5CB9096F3CE86CE6566D9E7D8E77E12D /* UIColor-Hex-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor-Hex-umbrella.h"; sourceTree = "<group>"; };
+		5E48B564176CB87095EA281C4F623B65 /* UIColor+Hex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+Hex.h"; path = "Classes/UIColor+Hex.h"; sourceTree = "<group>"; };
+		613F59C787011975229186CD6489CB51 /* SwiftyButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		626439AEBA986AA93475FC77BCD61AB3 /* SSBouncyButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSBouncyButton.h; path = SSBouncyButton/SSBouncyButton.h; sourceTree = "<group>"; };
+		65BA1D10E17F5EDE6A357B1B242DE7B3 /* SwiftyButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyButton-umbrella.h"; sourceTree = "<group>"; };
+		691F92D07DF1B8B474E044FC2A2F0A33 /* PureLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PureLayout-prefix.pch"; sourceTree = "<group>"; };
+		6A5D6E74F6DA3E62330FCEBFEF022A52 /* SSBouncyButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SSBouncyButton.m; path = SSBouncyButton/SSBouncyButton.m; sourceTree = "<group>"; };
+		6AAE9ED6BE8EC5BF11CF22273CFB23F8 /* Pods-HackGT-HealthKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HackGT-HealthKit-dummy.m"; sourceTree = "<group>"; };
+		6DEA5B6C75DCD7C6B0BF92F5ACE92E4E /* UIColor_Hex.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIColor_Hex.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FACCF93843ABCCBDC7E527B1134806C /* UIImage+BetterAdditions-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+BetterAdditions-umbrella.h"; sourceTree = "<group>"; };
+		7007BFFA35985377436EDF91ACE21A2F /* UIColor-Hex.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "UIColor-Hex.xcconfig"; sourceTree = "<group>"; };
+		7036469C56C1C418688AFDC64039CC93 /* Pods_HackGT_HealthKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HackGT_HealthKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7296AE025D5A4E0988585982510E4DC4 /* Pods-HackGT-HealthKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HackGT-HealthKit.modulemap"; sourceTree = "<group>"; };
+		761A1C5E138577902402397CBB52C45F /* Pods-HackGT-HealthKit WatchKit App-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HackGT-HealthKit WatchKit App-acknowledgements.markdown"; sourceTree = "<group>"; };
+		78E4AC4E7E8BF6E0E3260349FCECC973 /* NSLayoutConstraint+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+PureLayout.h"; path = "PureLayout/PureLayout/NSLayoutConstraint+PureLayout.h"; sourceTree = "<group>"; };
+		7CD66318888391E1CF42F22BF30A7907 /* PureLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = PureLayout.modulemap; sourceTree = "<group>"; };
+		7FEFCE5D2FF2E1861F7FECE86F81E75F /* Pods-HackGT-HealthKit WatchKit Extension-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HackGT-HealthKit WatchKit Extension-acknowledgements.plist"; sourceTree = "<group>"; };
+		83665D274D6C2E2A8FA0CBD5EA661023 /* Pods-HackGT-HealthKit-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HackGT-HealthKit-acknowledgements.markdown"; sourceTree = "<group>"; };
+		83FE1B04D6396F181887BA71325EEE7D /* UIImage+BetterAdditions.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "UIImage+BetterAdditions.modulemap"; sourceTree = "<group>"; };
+		8451CCBC15E44D0A83F5E07AF471D4EE /* UIColor-Hex.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "UIColor-Hex.modulemap"; sourceTree = "<group>"; };
+		845B723B8E1BBF8E68A75B7D32C5A011 /* UIImage+BetterAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+BetterAdditions.h"; sourceTree = "<group>"; };
+		8AE912D0A87E75C0A0702134FF4F0571 /* Pods-HackGT-HealthKit WatchKit App-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HackGT-HealthKit WatchKit App-umbrella.h"; sourceTree = "<group>"; };
+		8F56E047923FBD21382D483C5B633452 /* Pods-HackGT-HealthKit WatchKit Extension-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HackGT-HealthKit WatchKit Extension-resources.sh"; sourceTree = "<group>"; };
+		907068EA08FECC6137A43D8D954D9B95 /* SwiftyButton+ResizableImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SwiftyButton+ResizableImage.swift"; path = "SwiftyButton/SwiftyButton+ResizableImage.swift"; sourceTree = "<group>"; };
+		90B2CF048B4297B5491EE1792DD594EE /* UIImage_BetterAdditions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIImage_BetterAdditions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9251B549A5C3A327F170854F50813193 /* SSBouncyButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SSBouncyButton-dummy.m"; sourceTree = "<group>"; };
+		9395F80DA4F0723DBE6C4D603F547D97 /* PureLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PureLayout-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9565560F4A476685E9F2D4E194CEB3B1 /* UIColor+Hex.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Hex.m"; path = "Classes/UIColor+Hex.m"; sourceTree = "<group>"; };
+		96CEF64EDD67F5BE7B7780EC1AED5F53 /* UIImage+BetterAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+BetterAdditions.m"; sourceTree = "<group>"; };
+		9A81824C91B1CCCC780C50B64181162B /* Pods-HackGT-HealthKit WatchKit App-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HackGT-HealthKit WatchKit App-resources.sh"; sourceTree = "<group>"; };
+		9C63E46C83AFDD4F1D3EECE2E4DAED6B /* SwiftyButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SwiftyButton.modulemap; sourceTree = "<group>"; };
+		A183D5D4CF884A6CB558377646F08F30 /* UIImage+BetterAdditions-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+BetterAdditions-prefix.pch"; sourceTree = "<group>"; };
+		A1B93B6C18E2CF5B0FE6A25D3468F045 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1BE4F070F93787C1D3CE5E4D3A38F8B /* Pods-HackGT-HealthKit-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HackGT-HealthKit-acknowledgements.plist"; sourceTree = "<group>"; };
+		A4866364566AEFB549242D692C73E53D /* PureLayoutDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PureLayoutDefines.h; path = PureLayout/PureLayout/PureLayoutDefines.h; sourceTree = "<group>"; };
+		A80DA348E38D67B77A553544F28FDF88 /* SSBouncyButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SSBouncyButton.xcconfig; sourceTree = "<group>"; };
+		AF2E4F0712802EC04C6E861C0EA3F31A /* NSLayoutConstraint+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+PureLayout.m"; path = "PureLayout/PureLayout/NSLayoutConstraint+PureLayout.m"; sourceTree = "<group>"; };
+		B5290B13B27C61DF90A8404C5A475427 /* SwiftyButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyButton-prefix.pch"; sourceTree = "<group>"; };
+		B73E8D09EE4949DED2022FF4DDED7B8E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B741C6296643BEE4DE32E00839154077 /* Pods-HackGT-HealthKit WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HackGT-HealthKit WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
+		BA780F3E006F26DA452966D053872220 /* SSBouncyButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SSBouncyButton-umbrella.h"; sourceTree = "<group>"; };
+		BB58567E11CBE383BEE77497765D1610 /* Pods-HackGT-HealthKit WatchKit App.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HackGT-HealthKit WatchKit App.modulemap"; sourceTree = "<group>"; };
+		BF8B7F3480CB28DDA9D0363B7E36DC18 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6191E1778C7E58B9500C12C97E58B35 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8846453E75E1841249F51C0D2814636 /* Pods-HackGT-HealthKit-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HackGT-HealthKit-frameworks.sh"; sourceTree = "<group>"; };
+		C895747574157561583A3EF8B29820D8 /* ALView+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ALView+PureLayout.h"; path = "PureLayout/PureLayout/ALView+PureLayout.h"; sourceTree = "<group>"; };
+		C9EEBA85AB9512B46BD1881740589E14 /* ALView+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ALView+PureLayout.m"; path = "PureLayout/PureLayout/ALView+PureLayout.m"; sourceTree = "<group>"; };
+		CC3C97FF7D49D19A3C3EA3BE735FA020 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		D0A75EAB90E23A23ADDD10D6E526AC5F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D131323A9D0E76557BF0FB9E2DD27BFA /* Pods-HackGT-HealthKit WatchKit App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HackGT-HealthKit WatchKit App.release.xcconfig"; sourceTree = "<group>"; };
+		D777A272E8D20C06BCCACDEDA02EC8F0 /* UIImage_BetterAdditions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIImage_BetterAdditions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D777D15477967BFACDADC9DC034910FD /* PureLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PureLayout-dummy.m"; sourceTree = "<group>"; };
+		DFFDABF4A9C8E6FB0DD876B4B957F287 /* SSBouncyButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SSBouncyButton-prefix.pch"; sourceTree = "<group>"; };
+		E1782BD96AF0CF3867AF47145E97505D /* SwiftyButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyButton.xcconfig; sourceTree = "<group>"; };
+		E26B89E5A6B8CEBE456C150CF0AD2B4C /* Pods-HackGT-HealthKit WatchKit Extension-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HackGT-HealthKit WatchKit Extension-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E4FEE3EABA6EA1ED97E6439A69D9907A /* Pods-HackGT-HealthKit WatchKit Extension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HackGT-HealthKit WatchKit Extension-umbrella.h"; sourceTree = "<group>"; };
+		EA82394ACC67CA00DA3268B55C78F57A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS2.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		F2097307EA10575B3C8E234426365203 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		F24F88C2C1F4A21C0778642F709498AE /* UIColor_Hex.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIColor_Hex.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8B313630462B424E5A014596AA1E53F /* BRYSerialAnimationQueue.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = BRYSerialAnimationQueue.modulemap; sourceTree = "<group>"; };
+		F90ECCF366DBF641BC1E653C4D8B5731 /* Pods-HackGT-HealthKit WatchKit Extension-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HackGT-HealthKit WatchKit Extension-frameworks.sh"; sourceTree = "<group>"; };
+		FC128F7DA4B7C0E45EFEBC84F2065DB7 /* UIColor-Hex-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor-Hex-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03FC36923981A4C003D6901481A6F974 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C7033532F50F3A635A7FA41A080A423 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A5BB708616AB26A8D14DE0B989CAE52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E0B227B3D38B8E56EB80C2D41708A66 /* Foundation.framework in Frameworks */,
+				D38C9B64A18C2A974DFF4057F492FFD0 /* PureLayout.framework in Frameworks */,
+				95CA30497E98F47D5CFFEFF4B3F49F03 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E59EFA0B213706BF434201141ADE845 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52D4FA992565A45AB3CF082415E331F9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54632497A6E449E5C2464526074CA55D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05FC4CEB34A9CF811E20D265F2332436 /* Foundation.framework in Frameworks */,
+				DDEE556F4B94D3E3C588917C0955CD3A /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		709DA1C0F801EF8164AF1EE78A635F4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				352CD4CB2DACFDEA1232D03186690A80 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D963917BA67F3F4D86E59110D57EE02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				446F49369519C233BD14ECA6C26BB5D3 /* Foundation.framework in Frameworks */,
+				BA76C473D01A80A0D26E922C048F7971 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CCF0D87D70299A1E68F0F336A89779E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B5C4F819CDE36BB03F996FB85023504 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0A8E803A30A42B93F1F147B1A8C4841 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D835AA384172654F955D7F0D4B4FBCD7 /* BRYSerialAnimationQueue.framework in Frameworks */,
+				498EC7F908106DF59C6E0E42940C8BE1 /* Foundation.framework in Frameworks */,
+				CDF8D834BF7806AC45379DD217CC421E /* QuartzCore.framework in Frameworks */,
+				AB33C6C6EEABEB2753850F651957B00C /* UIColor_Hex.framework in Frameworks */,
+				BB836A7FCD962E9FE7ADE233AB4A9C43 /* UIImage_BetterAdditions.framework in Frameworks */,
+				D52C86BD5980ADA581BBD5D37A781704 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E211BDA2136C78F9CD5F253C335C128B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDC20B21C52CEB5F63ECF071BA0EA89F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		304A053693A2525A6C3725593D213EC1 /* SSBouncyButton */ = {
+			isa = PBXGroup;
+			children = (
+				626439AEBA986AA93475FC77BCD61AB3 /* SSBouncyButton.h */,
+				6A5D6E74F6DA3E62330FCEBFEF022A52 /* SSBouncyButton.m */,
+				A16CC6E1AE4A3F9766D6AA0FB80D26D2 /* Support Files */,
+			);
+			path = SSBouncyButton;
+			sourceTree = "<group>";
+		};
+		31AC3535FA468F6B9A0078DD0DE31879 /* UIImage+BetterAdditions */ = {
+			isa = PBXGroup;
+			children = (
+				845B723B8E1BBF8E68A75B7D32C5A011 /* UIImage+BetterAdditions.h */,
+				96CEF64EDD67F5BE7B7780EC1AED5F53 /* UIImage+BetterAdditions.m */,
+				F019805D3BC35EFDD72713DE19A0DDB5 /* Support Files */,
+			);
+			path = "UIImage+BetterAdditions";
+			sourceTree = "<group>";
+		};
+		4AE32C2D57B215DCFB5A5A0B63F5A1F9 /* Pods-HackGT-HealthKit WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				B73E8D09EE4949DED2022FF4DDED7B8E /* Info.plist */,
+				BB58567E11CBE383BEE77497765D1610 /* Pods-HackGT-HealthKit WatchKit App.modulemap */,
+				761A1C5E138577902402397CBB52C45F /* Pods-HackGT-HealthKit WatchKit App-acknowledgements.markdown */,
+				4DFBB9F2EF49DB753E6665E30BA88B13 /* Pods-HackGT-HealthKit WatchKit App-acknowledgements.plist */,
+				32B4935818EB0F7902EE5B292360AC67 /* Pods-HackGT-HealthKit WatchKit App-dummy.m */,
+				4E86D678FE49706E846CAB3544E09633 /* Pods-HackGT-HealthKit WatchKit App-frameworks.sh */,
+				9A81824C91B1CCCC780C50B64181162B /* Pods-HackGT-HealthKit WatchKit App-resources.sh */,
+				8AE912D0A87E75C0A0702134FF4F0571 /* Pods-HackGT-HealthKit WatchKit App-umbrella.h */,
+				42C0C38D4E302DEBB60423DA3175FD87 /* Pods-HackGT-HealthKit WatchKit App.debug.xcconfig */,
+				D131323A9D0E76557BF0FB9E2DD27BFA /* Pods-HackGT-HealthKit WatchKit App.release.xcconfig */,
+			);
+			name = "Pods-HackGT-HealthKit WatchKit App";
+			path = "Target Support Files/Pods-HackGT-HealthKit WatchKit App";
+			sourceTree = "<group>";
+		};
+		4C5298D70D120EEA79545C5605E31878 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0A75EAB90E23A23ADDD10D6E526AC5F /* Info.plist */,
+				7CD66318888391E1CF42F22BF30A7907 /* PureLayout.modulemap */,
+				1C36593D20D8574FD42FE75434FF2B3A /* PureLayout.xcconfig */,
+				D777D15477967BFACDADC9DC034910FD /* PureLayout-dummy.m */,
+				691F92D07DF1B8B474E044FC2A2F0A33 /* PureLayout-prefix.pch */,
+				9395F80DA4F0723DBE6C4D603F547D97 /* PureLayout-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PureLayout";
+			sourceTree = "<group>";
+		};
+		4D5D8C32C61E784E6D1D96E037C5B03D /* PureLayout */ = {
+			isa = PBXGroup;
+			children = (
+				C895747574157561583A3EF8B29820D8 /* ALView+PureLayout.h */,
+				C9EEBA85AB9512B46BD1881740589E14 /* ALView+PureLayout.m */,
+				3A69DD0DC5F02A338A77314FE51A590E /* NSArray+PureLayout.h */,
+				5AF7F349A89FC3F205427255EE424829 /* NSArray+PureLayout.m */,
+				78E4AC4E7E8BF6E0E3260349FCECC973 /* NSLayoutConstraint+PureLayout.h */,
+				AF2E4F0712802EC04C6E861C0EA3F31A /* NSLayoutConstraint+PureLayout.m */,
+				42FBF589851B353E4C30241416C8DA53 /* PureLayout.h */,
+				4819AE9BEF3AB5F29B64A512889E0900 /* PureLayout+Internal.h */,
+				A4866364566AEFB549242D692C73E53D /* PureLayoutDefines.h */,
+				4C5298D70D120EEA79545C5605E31878 /* Support Files */,
+			);
+			path = PureLayout;
+			sourceTree = "<group>";
+		};
+		52AAF627D27685C19E7091532157C56D /* Pods-HackGT-HealthKit WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				0D19C18E97DF36FE8BD89978FDD112F1 /* Info.plist */,
+				035A72688001747E3AA20228FB1BAC14 /* Pods-HackGT-HealthKit WatchKit Extension.modulemap */,
+				E26B89E5A6B8CEBE456C150CF0AD2B4C /* Pods-HackGT-HealthKit WatchKit Extension-acknowledgements.markdown */,
+				7FEFCE5D2FF2E1861F7FECE86F81E75F /* Pods-HackGT-HealthKit WatchKit Extension-acknowledgements.plist */,
+				057A2903FB42D27E8749715D9F316C38 /* Pods-HackGT-HealthKit WatchKit Extension-dummy.m */,
+				F90ECCF366DBF641BC1E653C4D8B5731 /* Pods-HackGT-HealthKit WatchKit Extension-frameworks.sh */,
+				8F56E047923FBD21382D483C5B633452 /* Pods-HackGT-HealthKit WatchKit Extension-resources.sh */,
+				E4FEE3EABA6EA1ED97E6439A69D9907A /* Pods-HackGT-HealthKit WatchKit Extension-umbrella.h */,
+				0FEFACB47F05266F55DC8C4FE42FF33B /* Pods-HackGT-HealthKit WatchKit Extension.debug.xcconfig */,
+				B741C6296643BEE4DE32E00839154077 /* Pods-HackGT-HealthKit WatchKit Extension.release.xcconfig */,
+			);
+			name = "Pods-HackGT-HealthKit WatchKit Extension";
+			path = "Target Support Files/Pods-HackGT-HealthKit WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		566471C1506E346CFF5127DFAED1249C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8183B74E390376EB6D7CC62681E0EC8B /* BRYSerialAnimationQueue */,
+				4D5D8C32C61E784E6D1D96E037C5B03D /* PureLayout */,
+				304A053693A2525A6C3725593D213EC1 /* SSBouncyButton */,
+				99E419CFB95B04F6DF88B037189BEE47 /* SwiftyButton */,
+				9CF8F5BDF4205CEFE4F547969578335A /* UIColor-Hex */,
+				31AC3535FA468F6B9A0078DD0DE31879 /* UIImage+BetterAdditions */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5FDB601C3DDCEADDCAFCB4E6CFF722F6 /* CustomContent */ = {
+			isa = PBXGroup;
+			children = (
+				3AEC35A75683A35C100A26ABFEE26545 /* SwiftyCustomContentButton.swift */,
+			);
+			name = CustomContent;
+			sourceTree = "<group>";
+		};
+		699E1049E063B54C9592F117254943F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				076F9FC2AADBF155D3E7C8D47F591219 /* BRYSerialAnimationQueue.framework */,
+				7036469C56C1C418688AFDC64039CC93 /* Pods_HackGT_HealthKit.framework */,
+				162883E475ABADF0E25CEB83797C6293 /* Pods_HackGT_HealthKit_WatchKit_App.framework */,
+				4BB2567153705C90E5646034C3A1B150 /* Pods_HackGT_HealthKit_WatchKit_Extension.framework */,
+				4E19AD83204C822332F3AAF372FA507D /* PureLayout.framework */,
+				21194777A7764F38BA37E1E44E9832FF /* SSBouncyButton.framework */,
+				613F59C787011975229186CD6489CB51 /* SwiftyButton.framework */,
+				6DEA5B6C75DCD7C6B0BF92F5ACE92E4E /* UIColor_Hex.framework */,
+				D777A272E8D20C06BCCACDEDA02EC8F0 /* UIImage_BetterAdditions.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				806D868096DBAB1A3AA94F3249D76EC4 /* Frameworks */,
+				566471C1506E346CFF5127DFAED1249C /* Pods */,
+				699E1049E063B54C9592F117254943F5 /* Products */,
+				A9B3F97088534C2B487374BCD926C218 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		806D868096DBAB1A3AA94F3249D76EC4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				133189E204C7808730C87148916E8FD6 /* BRYSerialAnimationQueue.framework */,
+				3A6CD74A7805333FB58D050D74822607 /* PureLayout.framework */,
+				F24F88C2C1F4A21C0778642F709498AE /* UIColor_Hex.framework */,
+				90B2CF048B4297B5491EE1792DD594EE /* UIImage_BetterAdditions.framework */,
+				D782348F743CBF9118053240E287B3FA /* iOS */,
+				85E2D4271BEF3010DE6082D19262B6A4 /* watchOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8183B74E390376EB6D7CC62681E0EC8B /* BRYSerialAnimationQueue */ = {
+			isa = PBXGroup;
+			children = (
+				44E9EF7B99EF25CD93C854C7113517D8 /* BRYSerialAnimationQueue.h */,
+				4EA16840092277CF28DC982A537A68D8 /* BRYSerialAnimationQueue.m */,
+				D46B479691A05727E3C640F9B3638A89 /* Support Files */,
+			);
+			path = BRYSerialAnimationQueue;
+			sourceTree = "<group>";
+		};
+		85E2D4271BEF3010DE6082D19262B6A4 /* watchOS */ = {
+			isa = PBXGroup;
+			children = (
+				EA82394ACC67CA00DA3268B55C78F57A /* Foundation.framework */,
+			);
+			name = watchOS;
+			sourceTree = "<group>";
+		};
+		99E419CFB95B04F6DF88B037189BEE47 /* SwiftyButton */ = {
+			isa = PBXGroup;
+			children = (
+				2311BD5BBBDADD0B3159C62EAFBDD711 /* SwiftyButton.swift */,
+				907068EA08FECC6137A43D8D954D9B95 /* SwiftyButton+ResizableImage.swift */,
+				5FDB601C3DDCEADDCAFCB4E6CFF722F6 /* CustomContent */,
+				C3AE7EB54E95BE17B8A6C37739873E93 /* Support Files */,
+			);
+			path = SwiftyButton;
+			sourceTree = "<group>";
+		};
+		9CF8F5BDF4205CEFE4F547969578335A /* UIColor-Hex */ = {
+			isa = PBXGroup;
+			children = (
+				5E48B564176CB87095EA281C4F623B65 /* UIColor+Hex.h */,
+				9565560F4A476685E9F2D4E194CEB3B1 /* UIColor+Hex.m */,
+				AB108A6B00344528562FF51332CC3A24 /* Support Files */,
+			);
+			path = "UIColor-Hex";
+			sourceTree = "<group>";
+		};
+		A16CC6E1AE4A3F9766D6AA0FB80D26D2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C6191E1778C7E58B9500C12C97E58B35 /* Info.plist */,
+				47122F9E3AD4E02A66C63FB342520864 /* SSBouncyButton.modulemap */,
+				A80DA348E38D67B77A553544F28FDF88 /* SSBouncyButton.xcconfig */,
+				9251B549A5C3A327F170854F50813193 /* SSBouncyButton-dummy.m */,
+				DFFDABF4A9C8E6FB0DD876B4B957F287 /* SSBouncyButton-prefix.pch */,
+				BA780F3E006F26DA452966D053872220 /* SSBouncyButton-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SSBouncyButton";
+			sourceTree = "<group>";
+		};
+		A334AB8D71B6DF6A5ABE768E8B524024 /* Pods-HackGT-HealthKit */ = {
+			isa = PBXGroup;
+			children = (
+				2E833ED489A4E6E369043DFF708F4926 /* Info.plist */,
+				7296AE025D5A4E0988585982510E4DC4 /* Pods-HackGT-HealthKit.modulemap */,
+				83665D274D6C2E2A8FA0CBD5EA661023 /* Pods-HackGT-HealthKit-acknowledgements.markdown */,
+				A1BE4F070F93787C1D3CE5E4D3A38F8B /* Pods-HackGT-HealthKit-acknowledgements.plist */,
+				6AAE9ED6BE8EC5BF11CF22273CFB23F8 /* Pods-HackGT-HealthKit-dummy.m */,
+				C8846453E75E1841249F51C0D2814636 /* Pods-HackGT-HealthKit-frameworks.sh */,
+				28295CCB4E6A98358838E12E09AA3CA2 /* Pods-HackGT-HealthKit-resources.sh */,
+				074B6C0C409468A579D478123C6BD84A /* Pods-HackGT-HealthKit-umbrella.h */,
+				3F3778A2E2C94B749F7B8D96D0EEA407 /* Pods-HackGT-HealthKit.debug.xcconfig */,
+				5ABEB3636DE7EA4D0F288DE16C03827E /* Pods-HackGT-HealthKit.release.xcconfig */,
+			);
+			name = "Pods-HackGT-HealthKit";
+			path = "Target Support Files/Pods-HackGT-HealthKit";
+			sourceTree = "<group>";
+		};
+		A9B3F97088534C2B487374BCD926C218 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A334AB8D71B6DF6A5ABE768E8B524024 /* Pods-HackGT-HealthKit */,
+				4AE32C2D57B215DCFB5A5A0B63F5A1F9 /* Pods-HackGT-HealthKit WatchKit App */,
+				52AAF627D27685C19E7091532157C56D /* Pods-HackGT-HealthKit WatchKit Extension */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		AB108A6B00344528562FF51332CC3A24 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A1B93B6C18E2CF5B0FE6A25D3468F045 /* Info.plist */,
+				8451CCBC15E44D0A83F5E07AF471D4EE /* UIColor-Hex.modulemap */,
+				7007BFFA35985377436EDF91ACE21A2F /* UIColor-Hex.xcconfig */,
+				FC128F7DA4B7C0E45EFEBC84F2065DB7 /* UIColor-Hex-dummy.m */,
+				3BAF4FBEE9F538D28F3B1AE20632D33E /* UIColor-Hex-prefix.pch */,
+				5CB9096F3CE86CE6566D9E7D8E77E12D /* UIColor-Hex-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/UIColor-Hex";
+			sourceTree = "<group>";
+		};
+		C3AE7EB54E95BE17B8A6C37739873E93 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4F4AA47141AD7C1DE5758DB994C52F5F /* Info.plist */,
+				9C63E46C83AFDD4F1D3EECE2E4DAED6B /* SwiftyButton.modulemap */,
+				E1782BD96AF0CF3867AF47145E97505D /* SwiftyButton.xcconfig */,
+				3A13C910604E7DC442064B7D6CFF5624 /* SwiftyButton-dummy.m */,
+				B5290B13B27C61DF90A8404C5A475427 /* SwiftyButton-prefix.pch */,
+				65BA1D10E17F5EDE6A357B1B242DE7B3 /* SwiftyButton-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyButton";
+			sourceTree = "<group>";
+		};
+		D46B479691A05727E3C640F9B3638A89 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F8B313630462B424E5A014596AA1E53F /* BRYSerialAnimationQueue.modulemap */,
+				4705E6215887E1C6D6DEDB01307682D8 /* BRYSerialAnimationQueue.xcconfig */,
+				3902B1057FD69788E83F9B2F5256A5DE /* BRYSerialAnimationQueue-dummy.m */,
+				0841EE1B5E400ED9733109A825834CA5 /* BRYSerialAnimationQueue-prefix.pch */,
+				4265DD002F42C3673FF89008C0C5CBE5 /* BRYSerialAnimationQueue-umbrella.h */,
+				334F65336FBCC79EFC712167FD173E9E /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BRYSerialAnimationQueue";
+			sourceTree = "<group>";
+		};
+		D782348F743CBF9118053240E287B3FA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F2097307EA10575B3C8E234426365203 /* Foundation.framework */,
+				CC3C97FF7D49D19A3C3EA3BE735FA020 /* QuartzCore.framework */,
+				003A3CBA5C673626C8DE8CDA8B20F7AD /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F019805D3BC35EFDD72713DE19A0DDB5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF8B7F3480CB28DDA9D0363B7E36DC18 /* Info.plist */,
+				83FE1B04D6396F181887BA71325EEE7D /* UIImage+BetterAdditions.modulemap */,
+				5A52C87B887DF964C293C6E355555CC2 /* UIImage+BetterAdditions.xcconfig */,
+				0A8DC93A9E20778ABC410A6E6F8E64A2 /* UIImage+BetterAdditions-dummy.m */,
+				A183D5D4CF884A6CB558377646F08F30 /* UIImage+BetterAdditions-prefix.pch */,
+				6FACCF93843ABCCBDC7E527B1134806C /* UIImage+BetterAdditions-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/UIImage+BetterAdditions";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		01F85C35309FA8D808FFA58CF09E2A77 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42044EC4C02F9E0FA9D4D9014855391D /* Pods-HackGT-HealthKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0301C287C00EAA89C947C429CC99B297 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42A41EE259194583791D3CAB7DAA36A2 /* Pods-HackGT-HealthKit WatchKit App-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C2A6BEC0E8B692CDBA0DD22933E87F5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				711A516C5F101BC111A02BE084315E3E /* Pods-HackGT-HealthKit WatchKit Extension-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EDEECAC013E11553FA059A466DB37A8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2127F04AECDEC689A6BDC8BB1297D494 /* SwiftyButton-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AED91D9A7972470936A46CEDD613D405 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADE9B564FA5812691FFE7B19ACCEA6F0 /* BRYSerialAnimationQueue-umbrella.h in Headers */,
+				2628A5FB3A1558EEB72E96510EBE98E1 /* BRYSerialAnimationQueue.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBCCD294F53588B2FAEC5BB78A82AB29 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B88B0B9919BFBA0C2750E60990DFDB17 /* UIImage+BetterAdditions-umbrella.h in Headers */,
+				E79F21F398F76A045328B790F223D2EC /* UIImage+BetterAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7E2EE441C5ED16D25F91FDAA047ACEE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52183BFD1C0233B6633EEEFE861B2AFB /* SSBouncyButton-umbrella.h in Headers */,
+				E6D9D703CE34AD3D75FE518BD229BC34 /* SSBouncyButton.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF11B61B8168C7CCE7187572E6220124 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1F3EECA5231B4FC4134EA32C2F137B0 /* UIColor+Hex.h in Headers */,
+				FCB464D84CBFBC4CD6AA16BA9EED917F /* UIColor-Hex-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F10DFB97C7E6000F4FFEB24CF3D4952D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24E753E0EB9C91BD8E5FEB95B935CAD4 /* ALView+PureLayout.h in Headers */,
+				154F913D1A8EF6D73805348BB2F323C2 /* NSArray+PureLayout.h in Headers */,
+				64599C6D76BF241577B20D6752B32C35 /* NSLayoutConstraint+PureLayout.h in Headers */,
+				6EB64A9A95AEBEE6125978B6D03ED43B /* PureLayout+Internal.h in Headers */,
+				3B955321F812BD10042F54541C59134A /* PureLayout-umbrella.h in Headers */,
+				B8BA42D055A2A375B966A595DA1D6A95 /* PureLayout.h in Headers */,
+				3754BDF8555E7923EB53EFD353818F62 /* PureLayoutDefines.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		113612165004ADFFEC0716D273C39A72 /* Pods-HackGT-HealthKit WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F804919B444B9F35C772CB5DD8E2C251 /* Build configuration list for PBXNativeTarget "Pods-HackGT-HealthKit WatchKit Extension" */;
+			buildPhases = (
+				017BFE012B10EA8884490FDCC3CDC0D9 /* Sources */,
+				E211BDA2136C78F9CD5F253C335C128B /* Frameworks */,
+				5C2A6BEC0E8B692CDBA0DD22933E87F5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-HackGT-HealthKit WatchKit Extension";
+			productName = "Pods-HackGT-HealthKit WatchKit Extension";
+			productReference = 4BB2567153705C90E5646034C3A1B150 /* Pods_HackGT_HealthKit_WatchKit_Extension.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		430030315192D8B16CB6D874B0E29454 /* UIColor-Hex */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76E1F435F289A1D9F81B550B4172C75D /* Build configuration list for PBXNativeTarget "UIColor-Hex" */;
+			buildPhases = (
+				ED8F7ACE771CCA7297C0D5F8293276DF /* Sources */,
+				03FC36923981A4C003D6901481A6F974 /* Frameworks */,
+				EF11B61B8168C7CCE7187572E6220124 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UIColor-Hex";
+			productName = "UIColor-Hex";
+			productReference = 6DEA5B6C75DCD7C6B0BF92F5ACE92E4E /* UIColor_Hex.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4FE952A6C96E083F4718AE1F0B04191F /* BRYSerialAnimationQueue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 183291BA7667F30FF2D96D375CFBF843 /* Build configuration list for PBXNativeTarget "BRYSerialAnimationQueue" */;
+			buildPhases = (
+				B565B85DE7F822C2414A37664D9F41BD /* Sources */,
+				7D963917BA67F3F4D86E59110D57EE02 /* Frameworks */,
+				AED91D9A7972470936A46CEDD613D405 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BRYSerialAnimationQueue;
+			productName = BRYSerialAnimationQueue;
+			productReference = 076F9FC2AADBF155D3E7C8D47F591219 /* BRYSerialAnimationQueue.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5546F4EF065F77A3CB8E1AB113528CCF /* PureLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83C8FF7FA24436B1C2B27F044FDE0782 /* Build configuration list for PBXNativeTarget "PureLayout" */;
+			buildPhases = (
+				880806D9851BEE8265ABB29EF5A118AE /* Sources */,
+				8CCF0D87D70299A1E68F0F336A89779E /* Frameworks */,
+				F10DFB97C7E6000F4FFEB24CF3D4952D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PureLayout;
+			productName = PureLayout;
+			productReference = 4E19AD83204C822332F3AAF372FA507D /* PureLayout.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		56BD921C62E4E3211129B4EEB9BAF071 /* Pods-HackGT-HealthKit WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9E93A0CC3BCED9344EE1644E43D8237 /* Build configuration list for PBXNativeTarget "Pods-HackGT-HealthKit WatchKit App" */;
+			buildPhases = (
+				A1A9BAB23366A0B6829964BE0D4FA52A /* Sources */,
+				4E59EFA0B213706BF434201141ADE845 /* Frameworks */,
+				0301C287C00EAA89C947C429CC99B297 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-HackGT-HealthKit WatchKit App";
+			productName = "Pods-HackGT-HealthKit WatchKit App";
+			productReference = 162883E475ABADF0E25CEB83797C6293 /* Pods_HackGT_HealthKit_WatchKit_App.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9B506D81C1A71E66EC0EBF7BF3DE5224 /* UIImage+BetterAdditions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39C85E45B6570891AC9C1EDB430EECDB /* Build configuration list for PBXNativeTarget "UIImage+BetterAdditions" */;
+			buildPhases = (
+				51BFD508A8FCCA90A2A10F8A12A920EC /* Sources */,
+				54632497A6E449E5C2464526074CA55D /* Frameworks */,
+				BBCCD294F53588B2FAEC5BB78A82AB29 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UIImage+BetterAdditions";
+			productName = "UIImage+BetterAdditions";
+			productReference = D777A272E8D20C06BCCACDEDA02EC8F0 /* UIImage_BetterAdditions.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B7AEA42C889538CE946F0AF10B244257 /* SwiftyButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C987AA4A33F7A06A970D861D74D3E9E3 /* Build configuration list for PBXNativeTarget "SwiftyButton" */;
+			buildPhases = (
+				F6047E63B1E5E7978F2612A4D0EE790F /* Sources */,
+				0A5BB708616AB26A8D14DE0B989CAE52 /* Frameworks */,
+				6EDEECAC013E11553FA059A466DB37A8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B129F77381C19E17E09F598AB3521C3B /* PBXTargetDependency */,
+			);
+			name = SwiftyButton;
+			productName = SwiftyButton;
+			productReference = 613F59C787011975229186CD6489CB51 /* SwiftyButton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CDB229689001364A21ADE56A0A758A01 /* Pods-HackGT-HealthKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8290C6DDE655C5FE62BE4972D38FC661 /* Build configuration list for PBXNativeTarget "Pods-HackGT-HealthKit" */;
+			buildPhases = (
+				71FFB5A5E700C5009BBF8D43B50788F9 /* Sources */,
+				709DA1C0F801EF8164AF1EE78A635F4D /* Frameworks */,
+				01F85C35309FA8D808FFA58CF09E2A77 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3BDBBD97365DD41B873F347458B18404 /* PBXTargetDependency */,
+				EE19CC3FC4B34803EA42C9A4D62140B4 /* PBXTargetDependency */,
+				E26A3A6544AB305F604671BE07DED03F /* PBXTargetDependency */,
+				B4BA8BDBB83020535DA62A9D68C3BF1C /* PBXTargetDependency */,
+				4B0A9671E2F9BF608510FC372EFAA0B4 /* PBXTargetDependency */,
+				A9A2E5C3D2BBFF1702AA0A760F4DCDEA /* PBXTargetDependency */,
+			);
+			name = "Pods-HackGT-HealthKit";
+			productName = "Pods-HackGT-HealthKit";
+			productReference = 7036469C56C1C418688AFDC64039CC93 /* Pods_HackGT_HealthKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FDF682B8060DFDF945B20809CE132429 /* SSBouncyButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6392B567834B0F8EBC91687A49DD556A /* Build configuration list for PBXNativeTarget "SSBouncyButton" */;
+			buildPhases = (
+				3B3AE5F33F5E0EFB7D665D86B3771FB9 /* Sources */,
+				E0A8E803A30A42B93F1F147B1A8C4841 /* Frameworks */,
+				D7E2EE441C5ED16D25F91FDAA047ACEE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6083E57DF971B6D7DB13A8EE8A7B068F /* PBXTargetDependency */,
+				115E9C5D40F2810ED348EFF7715C6ACA /* PBXTargetDependency */,
+				476F17C1B02068B82942F08BF6D504BB /* PBXTargetDependency */,
+			);
+			name = SSBouncyButton;
+			productName = SSBouncyButton;
+			productReference = 21194777A7764F38BA37E1E44E9832FF /* SSBouncyButton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					B7AEA42C889538CE946F0AF10B244257 = {
+						LastSwiftMigration = 0800;
+					};
+					CDB229689001364A21ADE56A0A758A01 = {
+						LastSwiftMigration = 0800;
+					};
+				};
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 699E1049E063B54C9592F117254943F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4FE952A6C96E083F4718AE1F0B04191F /* BRYSerialAnimationQueue */,
+				CDB229689001364A21ADE56A0A758A01 /* Pods-HackGT-HealthKit */,
+				56BD921C62E4E3211129B4EEB9BAF071 /* Pods-HackGT-HealthKit WatchKit App */,
+				113612165004ADFFEC0716D273C39A72 /* Pods-HackGT-HealthKit WatchKit Extension */,
+				5546F4EF065F77A3CB8E1AB113528CCF /* PureLayout */,
+				FDF682B8060DFDF945B20809CE132429 /* SSBouncyButton */,
+				B7AEA42C889538CE946F0AF10B244257 /* SwiftyButton */,
+				430030315192D8B16CB6D874B0E29454 /* UIColor-Hex */,
+				9B506D81C1A71E66EC0EBF7BF3DE5224 /* UIImage+BetterAdditions */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		017BFE012B10EA8884490FDCC3CDC0D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87A8C2933E9F6B8450FC979F7FEB37D4 /* Pods-HackGT-HealthKit WatchKit Extension-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B3AE5F33F5E0EFB7D665D86B3771FB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C661B64B4ADC63EF96781FCE26837D7 /* SSBouncyButton-dummy.m in Sources */,
+				A50FC3243637933D79ECBCB7DA2FA1D0 /* SSBouncyButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51BFD508A8FCCA90A2A10F8A12A920EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACA97A98A094AE043761FC73C7B97E7B /* UIImage+BetterAdditions-dummy.m in Sources */,
+				B089062D471378FD10B33D51BA860E7C /* UIImage+BetterAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71FFB5A5E700C5009BBF8D43B50788F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62E23C1D74A95F057FA06D28EB62C1C0 /* Pods-HackGT-HealthKit-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		880806D9851BEE8265ABB29EF5A118AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CB2253DEF4B6DB4FC3965BFA4632603 /* ALView+PureLayout.m in Sources */,
+				573CC19BB95E0BF27C9AEF1B0BA1A3CD /* NSArray+PureLayout.m in Sources */,
+				AA49F27992C7ADAF0AAACCAF70DE6FA2 /* NSLayoutConstraint+PureLayout.m in Sources */,
+				681B05FF54C67AF820668147686B59AD /* PureLayout-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1A9BAB23366A0B6829964BE0D4FA52A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0337221D475B68B5EBFB05BB23588C6 /* Pods-HackGT-HealthKit WatchKit App-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B565B85DE7F822C2414A37664D9F41BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C35D5B14307BE7B68C659CD39B2DE97A /* BRYSerialAnimationQueue-dummy.m in Sources */,
+				7F5C701CC2A11F612E67824327ACC48D /* BRYSerialAnimationQueue.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED8F7ACE771CCA7297C0D5F8293276DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				065C3B0F27949BBE3E9FE1CE734A7111 /* UIColor+Hex.m in Sources */,
+				4178D1E184E32A0A74AE34DEE55D926E /* UIColor-Hex-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6047E63B1E5E7978F2612A4D0EE790F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81B7CF6E60DD62FF08051EF3D41B23B8 /* SwiftyButton+ResizableImage.swift in Sources */,
+				C9F16DFDCB3CDD9B62603D91022FC198 /* SwiftyButton-dummy.m in Sources */,
+				4070BA73CB092E2185C166B93EB0FF96 /* SwiftyButton.swift in Sources */,
+				66BE92FF1078C00F0A6A7C511E46CB8C /* SwiftyCustomContentButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		115E9C5D40F2810ED348EFF7715C6ACA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "UIColor-Hex";
+			target = 430030315192D8B16CB6D874B0E29454 /* UIColor-Hex */;
+			targetProxy = 9533C4C851657A0224CDB2E981477BF7 /* PBXContainerItemProxy */;
+		};
+		3BDBBD97365DD41B873F347458B18404 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BRYSerialAnimationQueue;
+			target = 4FE952A6C96E083F4718AE1F0B04191F /* BRYSerialAnimationQueue */;
+			targetProxy = F642AA0CBA20EB380B2CA0CF166E67A1 /* PBXContainerItemProxy */;
+		};
+		476F17C1B02068B82942F08BF6D504BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "UIImage+BetterAdditions";
+			target = 9B506D81C1A71E66EC0EBF7BF3DE5224 /* UIImage+BetterAdditions */;
+			targetProxy = F51EF7F6FEB12AF5E4B23EACF22A3B5D /* PBXContainerItemProxy */;
+		};
+		4B0A9671E2F9BF608510FC372EFAA0B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "UIColor-Hex";
+			target = 430030315192D8B16CB6D874B0E29454 /* UIColor-Hex */;
+			targetProxy = BB6B63F15390F934A211FF1DF86BE4BA /* PBXContainerItemProxy */;
+		};
+		6083E57DF971B6D7DB13A8EE8A7B068F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BRYSerialAnimationQueue;
+			target = 4FE952A6C96E083F4718AE1F0B04191F /* BRYSerialAnimationQueue */;
+			targetProxy = 4B898F2D89310DCE4A8575A39885AFCC /* PBXContainerItemProxy */;
+		};
+		A9A2E5C3D2BBFF1702AA0A760F4DCDEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "UIImage+BetterAdditions";
+			target = 9B506D81C1A71E66EC0EBF7BF3DE5224 /* UIImage+BetterAdditions */;
+			targetProxy = C425D532BF33D8B781816094E9E38D4E /* PBXContainerItemProxy */;
+		};
+		B129F77381C19E17E09F598AB3521C3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PureLayout;
+			target = 5546F4EF065F77A3CB8E1AB113528CCF /* PureLayout */;
+			targetProxy = 83001D4EE20CAE784FB8C9B256AD40A4 /* PBXContainerItemProxy */;
+		};
+		B4BA8BDBB83020535DA62A9D68C3BF1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyButton;
+			target = B7AEA42C889538CE946F0AF10B244257 /* SwiftyButton */;
+			targetProxy = D03B4365022221FDA5845A77A07F5862 /* PBXContainerItemProxy */;
+		};
+		E26A3A6544AB305F604671BE07DED03F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SSBouncyButton;
+			target = FDF682B8060DFDF945B20809CE132429 /* SSBouncyButton */;
+			targetProxy = FFB73DE0CA28FE3611DF83FDCE0AAC41 /* PBXContainerItemProxy */;
+		};
+		EE19CC3FC4B34803EA42C9A4D62140B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PureLayout;
+			target = 5546F4EF065F77A3CB8E1AB113528CCF /* PureLayout */;
+			targetProxy = A7C2E904F9F3041201BFEF812BAB9EB5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		01F2E8826D408114D14D760287556186 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D131323A9D0E76557BF0FB9E2DD27BFA /* Pods-HackGT-HealthKit WatchKit App.release.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HackGT-HealthKit WatchKit App/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HackGT-HealthKit WatchKit App/Pods-HackGT-HealthKit WatchKit App.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HackGT_HealthKit_WatchKit_App;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Release;
+		};
+		1C4CFED014719753FD189CC362616EF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F3778A2E2C94B749F7B8D96D0EEA407 /* Pods-HackGT-HealthKit.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HackGT-HealthKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HackGT-HealthKit/Pods-HackGT-HealthKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HackGT_HealthKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		210DF3F50AD5090B61C3616427FDE554 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C36593D20D8574FD42FE75434FF2B3A /* PureLayout.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PureLayout/PureLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PureLayout/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PureLayout/PureLayout.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = PureLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		28AE27E9117CFC8D31A502CE9031C46A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Debug;
+		};
+		2B8FF65DC3F9589E2D828357C358A1C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A80DA348E38D67B77A553544F28FDF88 /* SSBouncyButton.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SSBouncyButton/SSBouncyButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SSBouncyButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SSBouncyButton/SSBouncyButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SSBouncyButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		33C3EA33807D27C2B216386CCD84B910 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A52C87B887DF964C293C6E355555CC2 /* UIImage+BetterAdditions.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/UIImage+BetterAdditions/UIImage+BetterAdditions-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UIImage+BetterAdditions/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UIImage+BetterAdditions/UIImage+BetterAdditions.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = UIImage_BetterAdditions;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		39B4DAEC35370EA4C8D038ECA3BFAD0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A80DA348E38D67B77A553544F28FDF88 /* SSBouncyButton.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SSBouncyButton/SSBouncyButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SSBouncyButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SSBouncyButton/SSBouncyButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SSBouncyButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4CD73BFB5E6D5185C9FB2D6399972A17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4705E6215887E1C6D6DEDB01307682D8 /* BRYSerialAnimationQueue.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BRYSerialAnimationQueue/BRYSerialAnimationQueue-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BRYSerialAnimationQueue/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BRYSerialAnimationQueue/BRYSerialAnimationQueue.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = BRYSerialAnimationQueue;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		58CF038B033499FE668857FA4C367EC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4705E6215887E1C6D6DEDB01307682D8 /* BRYSerialAnimationQueue.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BRYSerialAnimationQueue/BRYSerialAnimationQueue-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BRYSerialAnimationQueue/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BRYSerialAnimationQueue/BRYSerialAnimationQueue.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = BRYSerialAnimationQueue;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6595B481617E2DC6CEB9CB2DBFD6E8D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A52C87B887DF964C293C6E355555CC2 /* UIImage+BetterAdditions.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/UIImage+BetterAdditions/UIImage+BetterAdditions-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UIImage+BetterAdditions/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UIImage+BetterAdditions/UIImage+BetterAdditions.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = UIImage_BetterAdditions;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6A6DDE270C0D9C9F16BE11D3380E76BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7007BFFA35985377436EDF91ACE21A2F /* UIColor-Hex.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/UIColor-Hex/UIColor-Hex-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UIColor-Hex/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UIColor-Hex/UIColor-Hex.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = UIColor_Hex;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		909DAC04C8B1E3750D8FF7AD883C9191 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FEFACB47F05266F55DC8C4FE42FF33B /* Pods-HackGT-HealthKit WatchKit Extension.debug.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HackGT-HealthKit WatchKit Extension/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HackGT-HealthKit WatchKit Extension/Pods-HackGT-HealthKit WatchKit Extension.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HackGT_HealthKit_WatchKit_Extension;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Debug;
+		};
+		A261ABF7B347157B14AC148D745CCB49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1782BD96AF0CF3867AF47145E97505D /* SwiftyButton.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyButton/SwiftyButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyButton/SwiftyButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftyButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A98DC675BAC40F6A240E064A5DB313CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42C0C38D4E302DEBB60423DA3175FD87 /* Pods-HackGT-HealthKit WatchKit App.debug.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HackGT-HealthKit WatchKit App/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HackGT-HealthKit WatchKit App/Pods-HackGT-HealthKit WatchKit App.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HackGT_HealthKit_WatchKit_App;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Debug;
+		};
+		AE9702AB6546699C8EFF81FBAB24B6F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1782BD96AF0CF3867AF47145E97505D /* SwiftyButton.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyButton/SwiftyButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyButton/SwiftyButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftyButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C87304F205C20AD383D892C6C45754B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B741C6296643BEE4DE32E00839154077 /* Pods-HackGT-HealthKit WatchKit Extension.release.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HackGT-HealthKit WatchKit Extension/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HackGT-HealthKit WatchKit Extension/Pods-HackGT-HealthKit WatchKit Extension.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HackGT_HealthKit_WatchKit_Extension;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Release;
+		};
+		D06C04FE7E1308ABF5BF5F10F69D27CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5ABEB3636DE7EA4D0F288DE16C03827E /* Pods-HackGT-HealthKit.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HackGT-HealthKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HackGT-HealthKit/Pods-HackGT-HealthKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HackGT_HealthKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D29AF0326505579D26489ACDDB2528E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7007BFFA35985377436EDF91ACE21A2F /* UIColor-Hex.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/UIColor-Hex/UIColor-Hex-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UIColor-Hex/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UIColor-Hex/UIColor-Hex.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = UIColor_Hex;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DF05F18246797D35A6F8B0F50EEB3931 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Release;
+		};
+		E63422FAE50608352FD42AC350E98D5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C36593D20D8574FD42FE75434FF2B3A /* PureLayout.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PureLayout/PureLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PureLayout/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PureLayout/PureLayout.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = PureLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		183291BA7667F30FF2D96D375CFBF843 /* Build configuration list for PBXNativeTarget "BRYSerialAnimationQueue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58CF038B033499FE668857FA4C367EC6 /* Debug */,
+				4CD73BFB5E6D5185C9FB2D6399972A17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28AE27E9117CFC8D31A502CE9031C46A /* Debug */,
+				DF05F18246797D35A6F8B0F50EEB3931 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39C85E45B6570891AC9C1EDB430EECDB /* Build configuration list for PBXNativeTarget "UIImage+BetterAdditions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33C3EA33807D27C2B216386CCD84B910 /* Debug */,
+				6595B481617E2DC6CEB9CB2DBFD6E8D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6392B567834B0F8EBC91687A49DD556A /* Build configuration list for PBXNativeTarget "SSBouncyButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B8FF65DC3F9589E2D828357C358A1C1 /* Debug */,
+				39B4DAEC35370EA4C8D038ECA3BFAD0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76E1F435F289A1D9F81B550B4172C75D /* Build configuration list for PBXNativeTarget "UIColor-Hex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D29AF0326505579D26489ACDDB2528E2 /* Debug */,
+				6A6DDE270C0D9C9F16BE11D3380E76BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8290C6DDE655C5FE62BE4972D38FC661 /* Build configuration list for PBXNativeTarget "Pods-HackGT-HealthKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C4CFED014719753FD189CC362616EF7 /* Debug */,
+				D06C04FE7E1308ABF5BF5F10F69D27CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83C8FF7FA24436B1C2B27F044FDE0782 /* Build configuration list for PBXNativeTarget "PureLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E63422FAE50608352FD42AC350E98D5B /* Debug */,
+				210DF3F50AD5090B61C3616427FDE554 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C987AA4A33F7A06A970D861D74D3E9E3 /* Build configuration list for PBXNativeTarget "SwiftyButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE9702AB6546699C8EFF81FBAB24B6F1 /* Debug */,
+				A261ABF7B347157B14AC148D745CCB49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F804919B444B9F35C772CB5DD8E2C251 /* Build configuration list for PBXNativeTarget "Pods-HackGT-HealthKit WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				909DAC04C8B1E3750D8FF7AD883C9191 /* Debug */,
+				C87304F205C20AD383D892C6C45754B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9E93A0CC3BCED9344EE1644E43D8237 /* Build configuration list for PBXNativeTarget "Pods-HackGT-HealthKit WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A98DC675BAC40F6A240E064A5DB313CD /* Debug */,
+				01F2E8826D408114D14D760287556186 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

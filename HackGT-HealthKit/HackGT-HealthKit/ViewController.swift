@@ -14,10 +14,14 @@ class ViewController: UIViewController {
     @IBOutlet var startButton: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
-        startButton.layer.cornerRadius = self.view.frame.size.width/2;
-        // Do any additional setup after loading the view, typically from a nib.
+               // Do any additional setup after loading the view, typically from a nib.
     }
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        let width = startButton.frame.size.width/2;
+        startButton.layer.cornerRadius = width;
 
+    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

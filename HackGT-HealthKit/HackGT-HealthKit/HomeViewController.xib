@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeViewController" customModule="HackGT_HealthKit" customModuleProvider="target">
+            <connections>
+                <outlet property="editButton" destination="9CL-ia-fXb" id="Le3-28-9st"/>
+                <outlet property="imageView" destination="n0h-rk-UQ8" id="xHZ-1n-biE"/>
+                <outlet property="phoneIcon" destination="PRc-72-HFc" id="8Bz-yi-Nwd"/>
+                <outlet property="phoneNumber" destination="Cn1-i7-KWN" id="sRW-le-A0o"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="n0h-rk-UQ8">
+                    <constraints>
+                        <constraint firstAttribute="height" constant="239" id="G7R-tB-lwR"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="[Contact Number]" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cn1-i7-KWN">
+                    <color key="backgroundColor" red="0.39215686274509803" green="0.38039215686274508" blue="0.5490196078431373" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="34" id="Iak-33-Em0"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="21"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Phone-icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="PRc-72-HFc">
+                    <constraints>
+                        <constraint firstAttribute="width" constant="40" id="PMb-fO-DjB"/>
+                        <constraint firstAttribute="height" constant="40" id="U0r-VJ-PfY"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9CL-ia-fXb">
+                    <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="93" id="ufW-j9-oxH"/>
+                        <constraint firstAttribute="height" constant="30" id="ylh-g3-Ypn"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="28"/>
+                    <state key="normal" title="Edit">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="editButtonPressed:" destination="-1" eventType="touchUpInside" id="fIa-eU-SfN"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Home" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qPj-uy-4VE">
+                    <color key="backgroundColor" red="0.35312116700000001" green="0.81924715910000001" blue="0.75529746419999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="83" id="PgT-Wr-prV"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="31"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.669047602658142" green="1" blue="0.9294471310711101" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="n0h-rk-UQ8" firstAttribute="centerX" secondItem="9CL-ia-fXb" secondAttribute="centerX" id="1pS-YS-KJ2"/>
+                <constraint firstItem="n0h-rk-UQ8" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Ajo-Ge-aSO"/>
+                <constraint firstItem="n0h-rk-UQ8" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="67" id="INc-nl-Obw"/>
+                <constraint firstAttribute="bottom" secondItem="9CL-ia-fXb" secondAttribute="bottom" constant="20" id="MNT-5S-XUs"/>
+                <constraint firstItem="qPj-uy-4VE" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="N15-py-NUS"/>
+                <constraint firstItem="Cn1-i7-KWN" firstAttribute="top" secondItem="n0h-rk-UQ8" secondAttribute="bottom" constant="78" id="Tc2-N6-col"/>
+                <constraint firstAttribute="trailing" secondItem="Cn1-i7-KWN" secondAttribute="trailing" constant="68" id="UlS-rt-MMc"/>
+                <constraint firstItem="n0h-rk-UQ8" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="126" id="dTu-S4-Lyb"/>
+                <constraint firstItem="Cn1-i7-KWN" firstAttribute="centerY" secondItem="PRc-72-HFc" secondAttribute="centerY" id="eMm-gj-jwO"/>
+                <constraint firstItem="Cn1-i7-KWN" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="67" id="fFf-vP-Ciz"/>
+                <constraint firstItem="qPj-uy-4VE" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="mmF-1s-gbU"/>
+                <constraint firstItem="PRc-72-HFc" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="19" id="u9c-V0-92A"/>
+                <constraint firstItem="qPj-uy-4VE" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="ybk-pn-3by"/>
+            </constraints>
+            <point key="canvasLocation" x="34.5" y="90.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Phone-icon.png" width="512" height="512"/>
+    </resources>
+</document>
